@@ -1,0 +1,388 @@
+{
+  "generatedAt": "2026-05-14T17:48:49.681Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "entities": [
+    {
+      "id": "consulta-placa",
+      "label": "consulta de placa",
+      "intent": "transacional",
+      "aliases": [
+        "consulta de placa",
+        "consultar placa veiculo",
+        "consulta placa online",
+        "como consultar placa de carro",
+        "consulta placa para comprar carro usado",
+        "consulta placa com historico veicular"
+      ],
+      "routes": [
+        "/consulta/placa"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "consulta-renavam",
+      "label": "consulta renavam",
+      "intent": "transacional",
+      "aliases": [
+        "consulta renavam",
+        "consultar renavam online",
+        "consulta renavam veiculo",
+        "como consultar renavam para debitos",
+        "consulta renavam para transferencia",
+        "onde consultar renavam completo"
+      ],
+      "routes": [
+        "/consulta/renavam"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "consulta-fipe",
+      "label": "consulta fipe",
+      "intent": "comercial",
+      "aliases": [
+        "consulta fipe",
+        "tabela fipe carro",
+        "valor fipe veiculo",
+        "consultar valor fipe por placa",
+        "fipe para avaliar carro usado",
+        "tabela fipe atualizada hoje"
+      ],
+      "routes": [
+        "/consulta/fipe"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "historico-veicular",
+      "label": "consulta historico veicular",
+      "intent": "transacional",
+      "aliases": [
+        "consulta historico veicular",
+        "historico do veiculo",
+        "laudo cautelar online",
+        "consulta historico completo por placa",
+        "como verificar historico antes de comprar",
+        "historico de sinistro e leilao"
+      ],
+      "routes": [
+        "/consulta/historico-veicular"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "debitos-veiculares",
+      "label": "consulta debito veicular",
+      "intent": "transacional",
+      "aliases": [
+        "consulta debito veicular",
+        "debitos de veiculo por placa",
+        "consulta ipva multas licenciamento",
+        "como ver debitos do carro pela placa",
+        "consulta de multas e ipva online",
+        "debitos para transferencia de veiculo"
+      ],
+      "routes": [
+        "/consulta/debito-veicular"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "roubo-furto",
+      "label": "consulta veiculo roubado",
+      "intent": "seguranca",
+      "aliases": [
+        "consulta veiculo roubado",
+        "placa com restricao de roubo",
+        "carro roubado pela placa",
+        "como saber se veiculo e roubado",
+        "consultar restricao roubo e furto",
+        "checar origem do veiculo por placa"
+      ],
+      "routes": [
+        "/consulta/veiculo-roubado"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "gravame",
+      "label": "consulta gravame",
+      "intent": "transacional",
+      "aliases": [
+        "consulta gravame",
+        "veiculo com gravame",
+        "restricao financeira veiculo",
+        "como saber se carro tem gravame",
+        "consulta gravame antes da compra",
+        "veiculo com alienacao fiduciaria"
+      ],
+      "routes": [
+        "/consulta/gravame"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "leilao",
+      "label": "consulta leilao",
+      "intent": "transacional",
+      "aliases": [
+        "consulta leilao",
+        "veiculo de leilao",
+        "passagem por leilao",
+        "como saber se carro foi de leilao",
+        "consulta historico de leilao por placa",
+        "risco de comprar veiculo de leilao"
+      ],
+      "routes": [
+        "/consulta/leilao"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "sinistro",
+      "label": "consulta sinistro",
+      "intent": "transacional",
+      "aliases": [
+        "consulta sinistro",
+        "historico de sinistro veiculo",
+        "veiculo com perda total",
+        "como saber se carro teve sinistro",
+        "consulta sinistro por placa online",
+        "verificar perda total antes de comprar"
+      ],
+      "routes": [
+        "/consulta/sinistro"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    },
+    {
+      "id": "proprietario-por-placa",
+      "label": "consulta proprietario por placa",
+      "intent": "informacional-legal",
+      "aliases": [
+        "consulta proprietario por placa",
+        "descobrir dono do veiculo pela placa",
+        "dados do proprietario do carro",
+        "quando e permitido consultar proprietario por placa",
+        "consulta proprietario com base legal",
+        "limites legais para dados de proprietario"
+      ],
+      "routes": [
+        "/consulta/proprietario-por-placa"
+      ],
+      "conversionTarget": "https://apibrasil.com.br"
+    }
+  ],
+  "relations": [
+    {
+      "source": "consulta-placa",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-placa",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-placa",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-placa",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-placa",
+      "target": "leilao",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-placa",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "leilao",
+      "relation": "same_intent"
+    },
+    {
+      "source": "consulta-renavam",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "leilao",
+      "relation": "same_intent"
+    },
+    {
+      "source": "historico-veicular",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "leilao",
+      "relation": "same_intent"
+    },
+    {
+      "source": "debitos-veiculares",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "leilao",
+      "relation": "same_intent"
+    },
+    {
+      "source": "gravame",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "leilao",
+      "target": "sinistro",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "consulta-placa",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "consulta-renavam",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "historico-veicular",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "debitos-veiculares",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "gravame",
+      "relation": "same_intent"
+    },
+    {
+      "source": "sinistro",
+      "target": "leilao",
+      "relation": "same_intent"
+    }
+  ]
+}

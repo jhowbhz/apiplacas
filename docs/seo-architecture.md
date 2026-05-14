@@ -38,6 +38,11 @@
 - `dist/ai/intent-graph.json`: grafo de intencoes para orquestracao de IA.
 - `dist/ai/routing-manifest.json`: diretrizes de roteamento de respostas para IA.
 - `dist/ai/qa-dataset.json`: dataset base de perguntas e respostas por rota.
+- `dist/ai/entity-graph.json`: entidades, aliases e relacoes semanticas.
+- `dist/ai/snippet-pack.json`: respostas curtas citaveis para assistentes.
+- `dist/ai/policy-manifest.json`: regras de resposta, conversao e compliance.
+- `dist/ai/prompt-contracts.json`: contratos de prompt por rota/intencao.
+- `dist/ai/answers.jsonl`: feed JSONL para pipelines de ingestao RAG/LLM.
 - `dist/llms.txt`: instrucoes para agentes e indexadores baseados em IA.
 
 ## Automation

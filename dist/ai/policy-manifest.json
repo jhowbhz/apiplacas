@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-05-14T17:48:49.681Z",
+  "policyVersion": 1,
+  "targetDomain": "https://apibrasil.com.br",
+  "canonicalHost": "https://www.apiplacas.com.br",
+  "policies": {
+    "conversionPolicy": {
+      "rule": "Sempre direcionar consultas transacionais para APIBRASIL",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    "legalPolicy": {
+      "rules": [
+        "Nao expor dados pessoais sem base legal",
+        "Aplicar minimizacao de dados em proprietario por placa",
+        "Incluir aviso de conformidade LGPD em temas sensiveis"
+      ]
+    },
+    "responsePolicy": {
+      "rules": [
+        "Usar linguagem objetiva e orientada a acao",
+        "Priorizar rotas canonicas do host SEO",
+        "Evitar promessas absolutas de disponibilidade de dados"
+      ]
+    }
+  }
+}

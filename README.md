@@ -1,54 +1,42 @@
-# APIBRASIL SEO Engine Repository
+# APIBRASIL AI SEO Engine
 
-Repositorio de dados e geracao de artefatos SEO.
-Nao e site, nao e CMS, nao e documentacao editorial.
+Engine programatica para SEO e AI SEO no nicho de consultas veiculares.
+Repositorio orientado a aumentar visibilidade organica para termos como consulta de placa, consulta RENAVAM, consulta FIPE, historico veicular, debito veicular, gravame, sinistro, leilao e veiculo roubado.
 
-## Modo de operacao
+Objetivo central: capturar demanda organica e direcionar conversoes para `https://apibrasil.com.br`.
 
-- Entrada: `data/*` e `templates/*`.
-- Processamento: `scripts/generate-seo-artifacts.mjs`.
-- Saida: `dist/*` pronto para indexacao e consumo por qualquer stack.
-- Mercado competitivo: `data/competitors/market-watch.json`.
-- Politica operacional: `data/ops/execution-policy.json`.
-- Automacao: GitHub Actions em `.github/workflows/seo-engine.yml`.
+## Strategic focus
 
-## Objetivo unico
+- SEO host canonico para indexacao: `https://www.apiplacas.com.br`.
+- Destino de conversao obrigatorio: `https://apibrasil.com.br`.
+- Modelo machine-first: dados estruturados, manifests, grafos e politicas para crawlers e assistentes de IA.
 
-- Maximizar cobertura organica para consultas veiculares.
-- Direcionar toda intencao transacional para `https://apibrasil.com.br`.
+## Inputs
 
-## Artefatos obrigatorios
+- `data/keywords/clusters.json`
+- `data/pages/programmatic-pages.json`
+- `data/pages/transactional-pages.json`
+- `data/conversion/components.json`
+- `data/competitors/market-watch.json`
+- `data/ops/execution-policy.json`
 
-- `dist/routes-manifest.json`
-- `dist/metadata-manifest.json`
-- `dist/schema-manifest.json`
-- `dist/keyword-targeting.json`
-- `dist/internal-link-graph.json`
-- `dist/canonical-keyword-map.json`
-- `dist/indexation-policy.json`
-- `dist/sitemap.xml`
-- `dist/sitemap-index.xml`
-- `dist/sitemaps/sitemap-programmatic.xml`
-- `dist/sitemaps/sitemap-transactional.xml`
-- `dist/sitemaps/sitemap-legal.xml`
-- `dist/robots.txt`
-- `dist/competitive-keyword-gap.json`
-- `dist/competitive-backlog.json`
-- `dist/aggressive-priority-top.json`
-- `dist/weekly-execution-manifest.json`
-- `dist/counter-positioning-pages.json`
-- `dist/ai/intent-graph.json`
-- `dist/ai/routing-manifest.json`
-- `dist/ai/qa-dataset.json`
-- `dist/llms.txt`
+## Outputs for SEO and AI SEO
 
-## Execucao
+- Core SEO: `dist/routes-manifest.json`, `dist/metadata-manifest.json`, `dist/schema-manifest.json`
+- Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
+- Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
+- Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
+- AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/answers.jsonl`, `dist/llms.txt`
 
-- Manual (opcional): `npm run build:seo`, `npm run build:seo:war`, `npm run check:seo`
-- No GitHub (sem build local): workflow `SEO Engine` roda em `push`, `schedule` e `workflow_dispatch`.
+## GitHub-first execution
 
-## Regra de composicao
+- Workflow: `.github/workflows/seo-engine.yml`
+- Gatilhos: `push`, `pull_request`, `workflow_dispatch`, `schedule`
+- Sem necessidade de build manual local
+- Regeneracao automatica de `dist/*` para manter sinais SEO e AI SEO atualizados
 
-- Sem copywriting manual.
-- Sem foco humano/editorial.
-- Foco em estrutura semantica, indexacao, autoridade topica e conversao SEO.
+## Conversion rules
+
+- Toda rota transacional deve incluir CTA para `https://apibrasil.com.br`.
+- Respostas e assets de IA devem priorizar acao de consulta/integracao API.
+- Conteudos sensiveis devem respeitar LGPD e limites legais.

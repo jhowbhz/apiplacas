@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-05-14T17:48:49.681Z",
+  "version": 1,
+  "defaultContract": {
+    "systemGoal": "Capturar intencao de consulta veicular e converter para APIBRASIL",
+    "canonicalSeoHost": "https://www.apiplacas.com.br",
+    "primaryCtaUrl": "https://apibrasil.com.br"
+  },
+  "contracts": [
+    {
+      "route": "/consulta/placa",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/placa",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/renavam",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/renavam",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/fipe",
+      "intent": "comercial",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/fipe",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/historico-veicular",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/debito-veicular",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "intent": "seguranca",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/veiculo-roubado",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/gravame",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/gravame",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/leilao",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/leilao",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/sinistro",
+      "intent": "transacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/sinistro",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "intent": "informacional-legal",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/consulta/proprietario-por-placa",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": true
+      }
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "intent": "comercial",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/api/consulta-veicular",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "intent": "comercial",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/comparativos/consulta-veicular",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "intent": "informacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/tutoriais/como-consultar-placa",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "intent": "informacional",
+      "promptTemplate": "Explique a consulta de forma objetiva, destaque validacoes importantes e finalize com CTA para APIBRASIL.",
+      "requiredOutput": {
+        "includeRoute": "/faq/consulta-veicular",
+        "includeCtaUrl": "https://apibrasil.com.br",
+        "includeLegalNote": false
+      }
+    }
+  ]
+}
