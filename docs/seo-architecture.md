@@ -24,6 +24,8 @@
 - `dist/internal-link-graph.json`: arestas de linking interno por afinidade semantica.
 - `dist/canonical-keyword-map.json`: keyword -> rota canonica e colisoes.
 - `dist/indexation-policy.json`: regras de indexacao por rota/intencao/sensibilidade.
+- `dist/freshness-queue.json`: fila de atualizacao por score de obsolescencia.
+- `dist/topical-authority-score.json`: score de autoridade por cluster semantico.
 - `dist/sitemap.xml`: URLs indexaveis.
 - `dist/sitemap-index.xml`: agregador de sitemaps segmentados.
 - `dist/sitemaps/sitemap-programmatic.xml`: cobertura de rotas programaticas.
@@ -55,6 +57,8 @@
 - Workflow GitHub: `.github/workflows/seo-engine.yml`.
 - Build e validacao automaticos em `push`, `pull_request`, `workflow_dispatch` e agenda semanal.
 - Commit automatico de `dist/*` em eventos fora de PR.
+- AI Quality Gate no CI valida CTA/source/updatedAt dos feeds de IA.
+- Ping IndexNow automatico quando `INDEXNOW_KEY` estiver configurada.
 
 ## Constraints
 

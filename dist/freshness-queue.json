@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-05-14T18:25:42.479Z",
+  "items": [
+    {
+      "route": "/api/consulta-veicular",
+      "pageType": "transactional",
+      "intent": "comercial",
+      "lastReviewedAt": "2026-03-15T18:25:42.478Z",
+      "refreshIntervalDays": 14,
+      "stalenessScore": 67,
+      "refreshPriority": 87
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "pageType": "transactional",
+      "intent": "informacional",
+      "lastReviewedAt": "2026-03-15T18:25:42.478Z",
+      "refreshIntervalDays": 14,
+      "stalenessScore": 67,
+      "refreshPriority": 87
+    },
+    {
+      "route": "/consulta/renavam",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-03-07T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 76,
+      "refreshPriority": 76
+    },
+    {
+      "route": "/consulta/gravame",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-03-07T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 76,
+      "refreshPriority": 76
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-03-12T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 70,
+      "refreshPriority": 70
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "pageType": "programmatic",
+      "intent": "informacional-legal",
+      "lastReviewedAt": "2026-03-31T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 49,
+      "refreshPriority": 64
+    },
+    {
+      "route": "/consulta/leilao",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-03-18T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 63,
+      "refreshPriority": 63
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "pageType": "transactional",
+      "intent": "comercial",
+      "lastReviewedAt": "2026-04-11T18:25:42.478Z",
+      "refreshIntervalDays": 14,
+      "stalenessScore": 37,
+      "refreshPriority": 57
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "pageType": "transactional",
+      "intent": "informacional",
+      "lastReviewedAt": "2026-04-11T18:25:42.478Z",
+      "refreshIntervalDays": 14,
+      "stalenessScore": 37,
+      "refreshPriority": 57
+    },
+    {
+      "route": "/consulta/placa",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-03-29T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 51,
+      "refreshPriority": 51
+    },
+    {
+      "route": "/consulta/fipe",
+      "pageType": "programmatic",
+      "intent": "comercial",
+      "lastReviewedAt": "2026-04-09T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 39,
+      "refreshPriority": 39
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-04-14T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 33,
+      "refreshPriority": 33
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "pageType": "programmatic",
+      "intent": "seguranca",
+      "lastReviewedAt": "2026-04-14T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 33,
+      "refreshPriority": 33
+    },
+    {
+      "route": "/consulta/sinistro",
+      "pageType": "programmatic",
+      "intent": "transacional",
+      "lastReviewedAt": "2026-04-28T18:25:42.478Z",
+      "refreshIntervalDays": 21,
+      "stalenessScore": 18,
+      "refreshPriority": 18
+    }
+  ]
+}

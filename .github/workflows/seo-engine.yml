@@ -30,6 +30,9 @@ jobs:
       - name: Check SEO integrity
         run: npm run check:seo
 
+      - name: AI quality gate
+        run: npm run check:ai-quality
+
       - name: Upload dist artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -46,3 +49,9 @@ jobs:
           else
             echo "No dist changes to commit."
           fi
+
+      - name: Notify IndexNow
+        if: github.event_name != 'pull_request'
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: npm run notify:indexnow

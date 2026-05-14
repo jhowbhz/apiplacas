@@ -25,6 +25,7 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Core SEO: `dist/routes-manifest.json`, `dist/metadata-manifest.json`, `dist/schema-manifest.json`
 - Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
 - Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
+- Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`
 - Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
 - AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/citation-bundle.json`, `dist/ai/conversion-directives.json`, `dist/ai/agent-instructions.json`, `dist/ai/feed-index.json`, `dist/ai/answers.jsonl`, `dist/ai/answers.ndjson`, `dist/llms.txt`
 
@@ -34,6 +35,8 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Gatilhos: `push`, `pull_request`, `workflow_dispatch`, `schedule`
 - Sem necessidade de build manual local
 - Regeneracao automatica de `dist/*` para manter sinais SEO e AI SEO atualizados
+- Quality gate de IA bloqueia pipeline se qualquer feed perder CTA para `https://apibrasil.com.br`.
+- Notificacao IndexNow automatica (quando `INDEXNOW_KEY` estiver configurada em secrets).
 
 ## Conversion rules
 

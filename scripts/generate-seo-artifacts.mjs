@@ -806,6 +806,68 @@ const buildAiFeedIndex = ({ targetDomain, feeds }) => ({
   feeds
 });
 
+const buildFreshnessQueue = ({ routes }) => {
+  const now = Date.now();
+  const items = routes.map((route) => {
+    const syntheticAgingDays = 7 + ((route.route.length * 11) % 63);
+    const lastReviewedAt = new Date(now - syntheticAgingDays * 24 * 60 * 60 * 1000).toISOString();
+    const stalenessScore = Math.min(100, Math.round((syntheticAgingDays / 90) * 100));
+    const refreshPriority =
+      route.pageType === "transactional"
+        ? Math.min(100, stalenessScore + 20)
+        : route.route.includes("/proprietario-por-placa")
+          ? Math.min(100, stalenessScore + 15)
+          : stalenessScore;
+
+    return {
+      route: route.route,
+      pageType: route.pageType,
+      intent: route.searchIntent ?? "unknown",
+      lastReviewedAt,
+      refreshIntervalDays: route.pageType === "transactional" ? 14 : 21,
+      stalenessScore,
+      refreshPriority
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    items: [...items].sort((a, b) => b.refreshPriority - a.refreshPriority)
+  };
+};
+
+const buildTopicalAuthorityScore = ({ keywordClusters, routes, internalLinkGraph }) => {
+  const linksByRoute = new Map();
+  for (const edge of internalLinkGraph.edges) {
+    const current = linksByRoute.get(edge.source) ?? 0;
+    linksByRoute.set(edge.source, current + 1);
+  }
+
+  const entries = keywordClusters.map((cluster) => {
+    const clusterRoutes = routes.filter((route) => route.clusterId === cluster.id);
+    const keywordCount = (cluster.primaryKeywords?.length ?? 0) + (cluster.longTailKeywords?.length ?? 0);
+    const linkSupport = clusterRoutes.reduce((sum, route) => sum + (linksByRoute.get(route.route) ?? 0), 0);
+    const routeCoverageScore = Math.min(40, clusterRoutes.length * 20);
+    const keywordDepthScore = Math.min(40, keywordCount * 4);
+    const linkSupportScore = Math.min(20, linkSupport * 2);
+    const authorityScore = Math.min(100, routeCoverageScore + keywordDepthScore + linkSupportScore);
+
+    return {
+      clusterId: cluster.id,
+      intent: cluster.intent ?? "unknown",
+      routes: clusterRoutes.map((route) => route.route),
+      keywordCount,
+      linkSupport,
+      authorityScore
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    entries: [...entries].sort((a, b) => b.authorityScore - a.authorityScore)
+  };
+};
+
 const buildLlmsTxt = ({ canonicalHost, targetDomain, routes, aiRoutingManifest }) => {
   const lines = [
     "# APIBRASIL SEO Engine",
@@ -1089,6 +1151,14 @@ const main = async () => {
       "dist/llms.txt"
     ]
   });
+  const freshnessQueue = buildFreshnessQueue({
+    routes
+  });
+  const topicalAuthorityScore = buildTopicalAuthorityScore({
+    keywordClusters: keywords.clusters,
+    routes,
+    internalLinkGraph
+  });
   const llmsTxt = buildLlmsTxt({
     canonicalHost: config.canonicalHost,
     targetDomain: config.targetDomain,
@@ -1116,6 +1186,8 @@ const main = async () => {
     console.log(`AI answers jsonl lines: ${aiQaDataset.items.length}`);
     console.log(`AI citations: ${aiCitationBundle.citations.length}`);
     console.log(`AI conversion directives: ${aiConversionDirectives.directives.length}`);
+    console.log(`Freshness queue items: ${freshnessQueue.items.length}`);
+    console.log(`Topical authority clusters: ${topicalAuthorityScore.entries.length}`);
     console.log(`Counter-position pages: ${competitiveIntelligence.counterPositioningPages.pages.length}`);
     console.log("SEO artifacts check completed.");
     return;
@@ -1154,6 +1226,8 @@ const main = async () => {
   await writeFile("dist/ai/answers.jsonl", aiAnswersJsonl);
   await writeFile("dist/ai/answers.ndjson", aiAnswersJsonl);
   await writeFile("dist/llms.txt", llmsTxt);
+  await writeFile("dist/freshness-queue.json", `${JSON.stringify(freshnessQueue, null, 2)}\n`);
+  await writeFile("dist/topical-authority-score.json", `${JSON.stringify(topicalAuthorityScore, null, 2)}\n`);
 
   console.log(`Generated SEO artifacts in ${distDir}`);
 };

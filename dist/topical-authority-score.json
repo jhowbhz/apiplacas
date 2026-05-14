@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-05-14T18:25:42.479Z",
+  "entries": [
+    {
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/placa"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/renavam"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/historico-veicular"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/debito-veicular"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/gravame"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/leilao"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "routes": [
+        "/consulta/sinistro"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 4,
+      "authorityScore": 52
+    },
+    {
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "routes": [
+        "/consulta/fipe"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 3,
+      "authorityScore": 50
+    },
+    {
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "routes": [
+        "/consulta/veiculo-roubado"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 1,
+      "authorityScore": 46
+    },
+    {
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "routes": [
+        "/consulta/proprietario-por-placa"
+      ],
+      "keywordCount": 6,
+      "linkSupport": 1,
+      "authorityScore": 46
+    }
+  ]
+}
