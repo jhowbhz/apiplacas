@@ -26,7 +26,7 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
 - Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
 - Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
-- AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/answers.jsonl`, `dist/llms.txt`
+- AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/citation-bundle.json`, `dist/ai/conversion-directives.json`, `dist/ai/agent-instructions.json`, `dist/ai/feed-index.json`, `dist/ai/answers.jsonl`, `dist/ai/answers.ndjson`, `dist/llms.txt`
 
 ## GitHub-first execution
 
@@ -40,3 +40,4 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Toda rota transacional deve incluir CTA para `https://apibrasil.com.br`.
 - Respostas e assets de IA devem priorizar acao de consulta/integracao API.
 - Conteudos sensiveis devem respeitar LGPD e limites legais.
+- Feeds de IA devem manter `requiredConversionTarget` em `https://apibrasil.com.br`.

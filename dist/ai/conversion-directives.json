@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-05-14T17:55:56.102Z",
+  "policyVersion": 1,
+  "defaultCtaUrl": "https://apibrasil.com.br",
+  "directives": [
+    {
+      "route": "/consulta/placa",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar agora na APIBRASIL"
+    },
+    {
+      "route": "/consulta/renavam",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar RENAVAM na APIBRASIL"
+    },
+    {
+      "route": "/consulta/fipe",
+      "intent": "comercial",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar FIPE com APIBRASIL"
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Ver historico na APIBRASIL"
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar debitos na APIBRASIL"
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "intent": "seguranca",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Checar restricao na APIBRASIL"
+    },
+    {
+      "route": "/consulta/gravame",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar gravame na APIBRASIL"
+    },
+    {
+      "route": "/consulta/leilao",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar leilao na APIBRASIL"
+    },
+    {
+      "route": "/consulta/sinistro",
+      "intent": "transacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Consultar sinistro na APIBRASIL"
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "intent": "informacional-legal",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "conduzir_para_consulta",
+      "fallbackCtaLabel": "Conhecer consultas APIBRASIL"
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "intent": "comercial",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "converter_para_api",
+      "fallbackCtaLabel": "Conhecer APIBRASIL"
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "intent": "comercial",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "converter_para_api",
+      "fallbackCtaLabel": "Ver API de consulta"
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "intent": "informacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "converter_para_api",
+      "fallbackCtaLabel": "Fazer consulta na APIBRASIL"
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "intent": "informacional",
+      "requiredCtaUrl": "https://apibrasil.com.br",
+      "requiredAction": "converter_para_api",
+      "fallbackCtaLabel": "Consultar agora"
+    }
+  ]
+}

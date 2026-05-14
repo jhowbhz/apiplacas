@@ -43,6 +43,11 @@
 - `dist/ai/policy-manifest.json`: regras de resposta, conversao e compliance.
 - `dist/ai/prompt-contracts.json`: contratos de prompt por rota/intencao.
 - `dist/ai/answers.jsonl`: feed JSONL para pipelines de ingestao RAG/LLM.
+- `dist/ai/answers.ndjson`: alias de ingestao para ferramentas NDJSON.
+- `dist/ai/citation-bundle.json`: pacote de citacoes e confianca por rota.
+- `dist/ai/conversion-directives.json`: regras de CTA obrigatorio para APIBRASIL.
+- `dist/ai/agent-instructions.json`: instrucoes operacionais para agentes de IA.
+- `dist/ai/feed-index.json`: indice unico de todos os feeds de IA.
 - `dist/llms.txt`: instrucoes para agentes e indexadores baseados em IA.
 
 ## Automation

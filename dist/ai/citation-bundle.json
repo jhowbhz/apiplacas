@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-05-14T17:55:56.102Z",
+  "citations": [
+    {
+      "id": "citation::consulta:placa",
+      "route": "/consulta/placa",
+      "claim": "Pagina otimizada para consulta de placa",
+      "source": "https://www.apiplacas.com.br/consulta/placa",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:renavam",
+      "route": "/consulta/renavam",
+      "claim": "Pagina otimizada para consulta renavam",
+      "source": "https://www.apiplacas.com.br/consulta/renavam",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:fipe",
+      "route": "/consulta/fipe",
+      "claim": "Pagina otimizada para consulta fipe",
+      "source": "https://www.apiplacas.com.br/consulta/fipe",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:historico-veicular",
+      "route": "/consulta/historico-veicular",
+      "claim": "Pagina otimizada para consulta historico veicular",
+      "source": "https://www.apiplacas.com.br/consulta/historico-veicular",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:debito-veicular",
+      "route": "/consulta/debito-veicular",
+      "claim": "Pagina otimizada para consulta debito veicular",
+      "source": "https://www.apiplacas.com.br/consulta/debito-veicular",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:veiculo-roubado",
+      "route": "/consulta/veiculo-roubado",
+      "claim": "Pagina otimizada para consulta veiculo roubado",
+      "source": "https://www.apiplacas.com.br/consulta/veiculo-roubado",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:gravame",
+      "route": "/consulta/gravame",
+      "claim": "Pagina otimizada para consulta gravame",
+      "source": "https://www.apiplacas.com.br/consulta/gravame",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:leilao",
+      "route": "/consulta/leilao",
+      "claim": "Pagina otimizada para consulta leilao",
+      "source": "https://www.apiplacas.com.br/consulta/leilao",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:sinistro",
+      "route": "/consulta/sinistro",
+      "claim": "Pagina otimizada para consulta sinistro",
+      "source": "https://www.apiplacas.com.br/consulta/sinistro",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::consulta:proprietario-por-placa",
+      "route": "/consulta/proprietario-por-placa",
+      "claim": "Pagina otimizada para consulta proprietario por placa",
+      "source": "https://www.apiplacas.com.br/consulta/proprietario-por-placa",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::api:consulta-veicular",
+      "route": "/api/consulta-veicular",
+      "claim": "Pagina otimizada para consulta veicular",
+      "source": "https://www.apiplacas.com.br/api/consulta-veicular",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::comparativos:consulta-veicular",
+      "route": "/comparativos/consulta-veicular",
+      "claim": "Pagina otimizada para consulta veicular",
+      "source": "https://www.apiplacas.com.br/comparativos/consulta-veicular",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::tutoriais:como-consultar-placa",
+      "route": "/tutoriais/como-consultar-placa",
+      "claim": "Pagina otimizada para consulta veicular",
+      "source": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    },
+    {
+      "id": "citation::faq:consulta-veicular",
+      "route": "/faq/consulta-veicular",
+      "claim": "Pagina otimizada para consulta veicular",
+      "source": "https://www.apiplacas.com.br/faq/consulta-veicular",
+      "confidence": 0.79,
+      "updatedAt": "2026-05-14T17:55:56.102Z"
+    }
+  ]
+}

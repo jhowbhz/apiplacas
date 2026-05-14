@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-05-14T17:55:56.102Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "feeds": [
+    "dist/ai/intent-graph.json",
+    "dist/ai/routing-manifest.json",
+    "dist/ai/qa-dataset.json",
+    "dist/ai/entity-graph.json",
+    "dist/ai/snippet-pack.json",
+    "dist/ai/policy-manifest.json",
+    "dist/ai/prompt-contracts.json",
+    "dist/ai/citation-bundle.json",
+    "dist/ai/conversion-directives.json",
+    "dist/ai/agent-instructions.json",
+    "dist/ai/answers.jsonl",
+    "dist/ai/answers.ndjson",
+    "dist/llms.txt"
+  ]
+}
