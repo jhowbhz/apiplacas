@@ -1,0 +1,426 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.331Z",
+  "entries": [
+    {
+      "keyword": "consulta de placa",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consultar placa veiculo",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta placa online",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como consultar placa de carro",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta placa para comprar carro usado",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta placa com historico veicular",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta renavam",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consultar renavam online",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta renavam veiculo",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como consultar renavam para debitos",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta renavam para transferencia",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "onde consultar renavam completo",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/renavam",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta fipe",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "tabela fipe carro",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "valor fipe veiculo",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consultar valor fipe por placa",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "fipe para avaliar carro usado",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "tabela fipe atualizada hoje",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "canonicalRoute": "/consulta/fipe",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta historico veicular",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "historico do veiculo",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "laudo cautelar online",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta historico completo por placa",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como verificar historico antes de comprar",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "historico de sinistro e leilao",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/historico-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta debito veicular",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "debitos de veiculo por placa",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta ipva multas licenciamento",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como ver debitos do carro pela placa",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta de multas e ipva online",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "debitos para transferencia de veiculo",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/debito-veicular",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta veiculo roubado",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "placa com restricao de roubo",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "carro roubado pela placa",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como saber se veiculo e roubado",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consultar restricao roubo e furto",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "checar origem do veiculo por placa",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "canonicalRoute": "/consulta/veiculo-roubado",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta gravame",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "veiculo com gravame",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "restricao financeira veiculo",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como saber se carro tem gravame",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta gravame antes da compra",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "veiculo com alienacao fiduciaria",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/gravame",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "veiculo de leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "passagem por leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como saber se carro foi de leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta historico de leilao por placa",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "risco de comprar veiculo de leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/leilao",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta sinistro",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "historico de sinistro veiculo",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "veiculo com perda total",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "como saber se carro teve sinistro",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta sinistro por placa online",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "verificar perda total antes de comprar",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "canonicalRoute": "/consulta/sinistro",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta proprietario por placa",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "descobrir dono do veiculo pela placa",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "dados do proprietario do carro",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "quando e permitido consultar proprietario por placa",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "consulta proprietario com base legal",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    },
+    {
+      "keyword": "limites legais para dados de proprietario",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "canonicalRoute": "/consulta/proprietario-por-placa",
+      "alternateRoutes": []
+    }
+  ],
+  "collisions": []
+}

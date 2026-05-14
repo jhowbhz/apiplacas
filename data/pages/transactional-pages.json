@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "slug": "api-consulta-veicular",
+      "route": "/api/consulta-veicular",
+      "title": "API de consulta veicular para produtos e operacoes",
+      "description": "Integre consultas de placa, RENAVAM, historico, debitos e restricoes em um unico fluxo.",
+      "searchIntent": "comercial",
+      "contentType": "landing",
+      "cta": {
+        "label": "Conhecer APIBRASIL",
+        "url": "https://apibrasil.com.br"
+      }
+    },
+    {
+      "slug": "comparativo-consulta-veicular",
+      "route": "/comparativos/consulta-veicular",
+      "title": "Comparativo de solucoes para consulta veicular",
+      "description": "Compare cobertura de dados, latencia e aplicacoes para escolher a melhor API de consulta.",
+      "searchIntent": "comercial",
+      "contentType": "comparativo",
+      "cta": {
+        "label": "Ver API de consulta",
+        "url": "https://apibrasil.com.br"
+      }
+    },
+    {
+      "slug": "tutorial-consultar-placa",
+      "route": "/tutoriais/como-consultar-placa",
+      "title": "Tutorial: como consultar placa e reduzir risco na compra",
+      "description": "Passo a passo pratico para validar informacoes de um veiculo antes da negociacao.",
+      "searchIntent": "informacional",
+      "contentType": "tutorial",
+      "cta": {
+        "label": "Fazer consulta na APIBRASIL",
+        "url": "https://apibrasil.com.br"
+      }
+    },
+    {
+      "slug": "faq-consulta-veicular",
+      "route": "/faq/consulta-veicular",
+      "title": "FAQ de consulta veicular: duvidas frequentes",
+      "description": "Respostas objetivas para as principais duvidas de consulta de placa, RENAVAM e historico.",
+      "searchIntent": "informacional",
+      "contentType": "faq",
+      "cta": {
+        "label": "Consultar agora",
+        "url": "https://apibrasil.com.br"
+      }
+    }
+  ]
+}

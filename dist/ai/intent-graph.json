@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.334Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "routeCount": 14,
+  "intents": [
+    {
+      "intent": "transacional",
+      "routes": [
+        "/consulta/placa",
+        "/consulta/renavam",
+        "/consulta/historico-veicular",
+        "/consulta/debito-veicular",
+        "/consulta/gravame",
+        "/consulta/leilao",
+        "/consulta/sinistro"
+      ],
+      "topKeywords": [
+        "consulta de placa",
+        "consultar placa veiculo",
+        "consulta placa online",
+        "como consultar placa de carro",
+        "consulta placa para comprar carro usado",
+        "consulta placa com historico veicular",
+        "consulta renavam",
+        "consultar renavam online",
+        "consulta renavam veiculo",
+        "como consultar renavam para debitos",
+        "consulta renavam para transferencia",
+        "onde consultar renavam completo",
+        "consulta historico veicular",
+        "historico do veiculo",
+        "laudo cautelar online",
+        "consulta historico completo por placa",
+        "como verificar historico antes de comprar",
+        "historico de sinistro e leilao",
+        "consulta debito veicular",
+        "debitos de veiculo por placa",
+        "consulta ipva multas licenciamento",
+        "como ver debitos do carro pela placa",
+        "consulta de multas e ipva online",
+        "debitos para transferencia de veiculo",
+        "consulta gravame",
+        "veiculo com gravame",
+        "restricao financeira veiculo",
+        "como saber se carro tem gravame",
+        "consulta gravame antes da compra",
+        "veiculo com alienacao fiduciaria"
+      ],
+      "preferredCtaTarget": "https://apibrasil.com.br"
+    },
+    {
+      "intent": "comercial",
+      "routes": [
+        "/consulta/fipe",
+        "/api/consulta-veicular",
+        "/comparativos/consulta-veicular"
+      ],
+      "topKeywords": [
+        "consulta fipe",
+        "tabela fipe carro",
+        "valor fipe veiculo",
+        "consultar valor fipe por placa",
+        "fipe para avaliar carro usado",
+        "tabela fipe atualizada hoje"
+      ],
+      "preferredCtaTarget": "https://apibrasil.com.br"
+    },
+    {
+      "intent": "seguranca",
+      "routes": [
+        "/consulta/veiculo-roubado"
+      ],
+      "topKeywords": [
+        "consulta veiculo roubado",
+        "placa com restricao de roubo",
+        "carro roubado pela placa",
+        "como saber se veiculo e roubado",
+        "consultar restricao roubo e furto",
+        "checar origem do veiculo por placa"
+      ],
+      "preferredCtaTarget": "https://apibrasil.com.br"
+    },
+    {
+      "intent": "informacional-legal",
+      "routes": [
+        "/consulta/proprietario-por-placa"
+      ],
+      "topKeywords": [
+        "consulta proprietario por placa",
+        "descobrir dono do veiculo pela placa",
+        "dados do proprietario do carro",
+        "quando e permitido consultar proprietario por placa",
+        "consulta proprietario com base legal",
+        "limites legais para dados de proprietario"
+      ],
+      "preferredCtaTarget": "https://apibrasil.com.br"
+    },
+    {
+      "intent": "informacional",
+      "routes": [
+        "/tutoriais/como-consultar-placa",
+        "/faq/consulta-veicular"
+      ],
+      "topKeywords": [],
+      "preferredCtaTarget": "https://apibrasil.com.br"
+    }
+  ]
+}

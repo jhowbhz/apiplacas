@@ -1,0 +1,57 @@
+# SEO Engine Spec
+
+## Scope
+
+- Engine de indexacao para buscas veiculares.
+- Modelo data-driven para geracao de sinais SEO.
+- Saida orientada a crawler e ranking system.
+
+## Input Contract
+
+- `data/keywords/clusters.json`: cluster, intent, termos principais e long-tail.
+- `data/pages/programmatic-pages.json`: rotas de captura por consulta.
+- `data/pages/transactional-pages.json`: rotas comerciais de conversao.
+- `data/conversion/components.json`: destinos de CTA e eventos.
+- `data/competitors/market-watch.json`: monitoramento de dominios concorrentes e keywords observadas.
+- `data/ops/execution-policy.json`: parametros de cadencia semanal em modo agressivo.
+
+## Output Contract
+
+- `dist/routes-manifest.json`: inventario completo de URLs.
+- `dist/metadata-manifest.json`: title, description, canonical, robots.
+- `dist/schema-manifest.json`: JSON-LD por rota e entidades globais.
+- `dist/keyword-targeting.json`: mapeamento URL -> cluster -> termos alvo.
+- `dist/internal-link-graph.json`: arestas de linking interno por afinidade semantica.
+- `dist/canonical-keyword-map.json`: keyword -> rota canonica e colisoes.
+- `dist/indexation-policy.json`: regras de indexacao por rota/intencao/sensibilidade.
+- `dist/sitemap.xml`: URLs indexaveis.
+- `dist/sitemap-index.xml`: agregador de sitemaps segmentados.
+- `dist/sitemaps/sitemap-programmatic.xml`: cobertura de rotas programaticas.
+- `dist/sitemaps/sitemap-transactional.xml`: cobertura de rotas transacionais.
+- `dist/sitemaps/sitemap-legal.xml`: cobertura de rotas sensiveis.
+- `dist/robots.txt`: politicas de rastreio e endpoint de sitemap.
+- `dist/competitive-keyword-gap.json`: lacunas de keyword vs concorrentes.
+- `dist/competitive-backlog.json`: backlog priorizado por oportunidade competitiva.
+- `dist/aggressive-priority-top.json`: top de ataque por score de oportunidade.
+- `dist/weekly-execution-manifest.json`: plano semanal de execucao agressiva.
+- `dist/counter-positioning-pages.json`: paginas sugeridas de comparativo competitivo.
+- `dist/ai/intent-graph.json`: grafo de intencoes para orquestracao de IA.
+- `dist/ai/routing-manifest.json`: diretrizes de roteamento de respostas para IA.
+- `dist/ai/qa-dataset.json`: dataset base de perguntas e respostas por rota.
+- `dist/llms.txt`: instrucoes para agentes e indexadores baseados em IA.
+
+## Automation
+
+- Workflow GitHub: `.github/workflows/seo-engine.yml`.
+- Build e validacao automaticos em `push`, `pull_request`, `workflow_dispatch` e agenda semanal.
+- Commit automatico de `dist/*` em eventos fora de PR.
+
+## Constraints
+
+- Zero dependencia de frontend.
+- Zero dependencia de linguagem natural manual.
+- Estrutura pronta para SSR, SSG ou render dinamico em camada externa.
+
+## Compliance
+
+- Cluster `proprietario-por-placa` requer base legal, minimizacao e auditoria.

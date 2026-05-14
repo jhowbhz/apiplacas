@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "id": "cta-primary",
+      "name": "CTA primario",
+      "placement": [
+        "hero",
+        "apos-beneficios",
+        "apos-faq"
+      ],
+      "label": "Consultar agora na APIBRASIL",
+      "url": "https://apibrasil.com.br",
+      "eventName": "seo_cta_primary_click"
+    },
+    {
+      "id": "cta-api",
+      "name": "CTA conhecer API",
+      "placement": [
+        "bloco-comparativo",
+        "sidebar",
+        "rodape"
+      ],
+      "label": "Conhecer API de consultas",
+      "url": "https://apibrasil.com.br",
+      "eventName": "seo_cta_api_click"
+    },
+    {
+      "id": "cta-contratar",
+      "name": "CTA contratar consulta",
+      "placement": [
+        "antes-da-conclusao",
+        "apos-prova-social"
+      ],
+      "label": "Contratar consulta",
+      "url": "https://apibrasil.com.br",
+      "eventName": "seo_cta_hire_click"
+    }
+  ]
+}

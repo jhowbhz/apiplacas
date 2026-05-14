@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "directives": [
+    {
+      "route": "/consulta/placa",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/renavam",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/fipe",
+      "intent": "comercial",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "intent": "seguranca",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/gravame",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/leilao",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/sinistro",
+      "intent": "transacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.8,
+      "legalSensitive": false
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "intent": "informacional-legal",
+      "robots": "index,follow,max-image-preview:large,max-video-preview:-1,nosnippet",
+      "crawlPriority": 0.8,
+      "legalSensitive": true
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "intent": "comercial",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.9,
+      "legalSensitive": false
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "intent": "comercial",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.9,
+      "legalSensitive": false
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "intent": "informacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.9,
+      "legalSensitive": false
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "intent": "informacional",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "crawlPriority": 0.9,
+      "legalSensitive": false
+    }
+  ]
+}

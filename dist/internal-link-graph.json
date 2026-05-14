@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    "/consulta/placa",
+    "/consulta/renavam",
+    "/consulta/fipe",
+    "/consulta/historico-veicular",
+    "/consulta/debito-veicular",
+    "/consulta/veiculo-roubado",
+    "/consulta/gravame",
+    "/consulta/leilao",
+    "/consulta/sinistro",
+    "/consulta/proprietario-por-placa",
+    "/api/consulta-veicular",
+    "/comparativos/consulta-veicular",
+    "/tutoriais/como-consultar-placa",
+    "/faq/consulta-veicular"
+  ],
+  "edges": [
+    {
+      "source": "/consulta/placa",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/placa",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/placa",
+      "target": "/consulta/debito-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/placa",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/renavam",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/renavam",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/renavam",
+      "target": "/consulta/debito-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/renavam",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/fipe",
+      "target": "/api/consulta-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/fipe",
+      "target": "/comparativos/consulta-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/fipe",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/historico-veicular",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/historico-veicular",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/historico-veicular",
+      "target": "/consulta/debito-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/historico-veicular",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/debito-veicular",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/debito-veicular",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/debito-veicular",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/debito-veicular",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/veiculo-roubado",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/gravame",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/gravame",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/gravame",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/gravame",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/leilao",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/leilao",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/leilao",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/leilao",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/sinistro",
+      "target": "/consulta/placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/sinistro",
+      "target": "/consulta/renavam",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/sinistro",
+      "target": "/consulta/historico-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/consulta/sinistro",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/consulta/proprietario-por-placa",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/api/consulta-veicular",
+      "target": "/consulta/fipe",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/api/consulta-veicular",
+      "target": "/comparativos/consulta-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/comparativos/consulta-veicular",
+      "target": "/consulta/fipe",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/comparativos/consulta-veicular",
+      "target": "/api/consulta-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/comparativos/consulta-veicular",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/tutoriais/como-consultar-placa",
+      "target": "/faq/consulta-veicular",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/tutoriais/como-consultar-placa",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    },
+    {
+      "source": "/faq/consulta-veicular",
+      "target": "/tutoriais/como-consultar-placa",
+      "relation": "same_intent",
+      "anchorToken": "consulta relacionada"
+    },
+    {
+      "source": "/faq/consulta-veicular",
+      "target": "/api/consulta-veicular",
+      "relation": "conversion",
+      "anchorToken": "conhecer api de consulta"
+    }
+  ]
+}

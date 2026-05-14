@@ -1,0 +1,12 @@
+{
+  "name": "apibrasil-seo-repository",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SEO-first repository for veicular query organic acquisition",
+  "type": "module",
+  "scripts": {
+    "build:seo": "node scripts/generate-seo-artifacts.mjs",
+    "check:seo": "node scripts/generate-seo-artifacts.mjs --check",
+    "build:seo:war": "node scripts/generate-seo-artifacts.mjs"
+  }
+}

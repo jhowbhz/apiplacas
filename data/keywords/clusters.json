@@ -1,0 +1,149 @@
+{
+  "clusters": [
+    {
+      "id": "consulta-placa",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta de placa",
+        "consultar placa veiculo",
+        "consulta placa online"
+      ],
+      "longTailKeywords": [
+        "como consultar placa de carro",
+        "consulta placa para comprar carro usado",
+        "consulta placa com historico veicular"
+      ]
+    },
+    {
+      "id": "consulta-renavam",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta renavam",
+        "consultar renavam online",
+        "consulta renavam veiculo"
+      ],
+      "longTailKeywords": [
+        "como consultar renavam para debitos",
+        "consulta renavam para transferencia",
+        "onde consultar renavam completo"
+      ]
+    },
+    {
+      "id": "consulta-fipe",
+      "intent": "comercial",
+      "primaryKeywords": [
+        "consulta fipe",
+        "tabela fipe carro",
+        "valor fipe veiculo"
+      ],
+      "longTailKeywords": [
+        "consultar valor fipe por placa",
+        "fipe para avaliar carro usado",
+        "tabela fipe atualizada hoje"
+      ]
+    },
+    {
+      "id": "historico-veicular",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta historico veicular",
+        "historico do veiculo",
+        "laudo cautelar online"
+      ],
+      "longTailKeywords": [
+        "consulta historico completo por placa",
+        "como verificar historico antes de comprar",
+        "historico de sinistro e leilao"
+      ]
+    },
+    {
+      "id": "debitos-veiculares",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta debito veicular",
+        "debitos de veiculo por placa",
+        "consulta ipva multas licenciamento"
+      ],
+      "longTailKeywords": [
+        "como ver debitos do carro pela placa",
+        "consulta de multas e ipva online",
+        "debitos para transferencia de veiculo"
+      ]
+    },
+    {
+      "id": "roubo-furto",
+      "intent": "seguranca",
+      "primaryKeywords": [
+        "consulta veiculo roubado",
+        "placa com restricao de roubo",
+        "carro roubado pela placa"
+      ],
+      "longTailKeywords": [
+        "como saber se veiculo e roubado",
+        "consultar restricao roubo e furto",
+        "checar origem do veiculo por placa"
+      ]
+    },
+    {
+      "id": "gravame",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta gravame",
+        "veiculo com gravame",
+        "restricao financeira veiculo"
+      ],
+      "longTailKeywords": [
+        "como saber se carro tem gravame",
+        "consulta gravame antes da compra",
+        "veiculo com alienacao fiduciaria"
+      ]
+    },
+    {
+      "id": "leilao",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta leilao",
+        "veiculo de leilao",
+        "passagem por leilao"
+      ],
+      "longTailKeywords": [
+        "como saber se carro foi de leilao",
+        "consulta historico de leilao por placa",
+        "risco de comprar veiculo de leilao"
+      ]
+    },
+    {
+      "id": "sinistro",
+      "intent": "transacional",
+      "primaryKeywords": [
+        "consulta sinistro",
+        "historico de sinistro veiculo",
+        "veiculo com perda total"
+      ],
+      "longTailKeywords": [
+        "como saber se carro teve sinistro",
+        "consulta sinistro por placa online",
+        "verificar perda total antes de comprar"
+      ]
+    },
+    {
+      "id": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "primaryKeywords": [
+        "consulta proprietario por placa",
+        "descobrir dono do veiculo pela placa",
+        "dados do proprietario do carro"
+      ],
+      "longTailKeywords": [
+        "quando e permitido consultar proprietario por placa",
+        "consulta proprietario com base legal",
+        "limites legais para dados de proprietario"
+      ],
+      "complianceNotes": [
+        "Respeitar LGPD e finalidade legitima",
+        "Minimizar dados pessoais exibidos",
+        "Aplicar controles de acesso e auditoria"
+      ]
+    }
+  ]
+}

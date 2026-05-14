@@ -1,0 +1,20 @@
+{
+  "project": "APIBRASIL SEO Repository",
+  "version": 1,
+  "canonicalHost": "https://www.apiplacas.com.br",
+  "targetDomain": "https://apibrasil.com.br",
+  "defaultLocale": "pt-BR",
+  "indexing": {
+    "allowAllBots": true,
+    "disallowPaths": [
+      "/interno/",
+      "/rascunho/"
+    ]
+  },
+  "conversion": {
+    "primaryCtaLabel": "Consultar agora na APIBRASIL",
+    "primaryCtaUrl": "https://apibrasil.com.br",
+    "secondaryCtaLabel": "Conhecer API de consultas veiculares",
+    "secondaryCtaUrl": "https://apibrasil.com.br"
+  }
+}

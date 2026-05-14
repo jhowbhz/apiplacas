@@ -1,0 +1,48 @@
+name: SEO Engine
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: "0 7 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build SEO artifacts
+        run: npm run build:seo:war
+
+      - name: Check SEO integrity
+        run: npm run check:seo
+
+      - name: Upload dist artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-dist
+          path: dist
+
+      - name: Auto-commit generated artifacts
+        if: github.event_name != 'pull_request'
+        run: |
+          if [ -n "$(git status --porcelain dist)" ]; then
+            git add dist
+            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -m "chore(seo): regenerate engine artifacts"
+            git push
+          else
+            echo "No dist changes to commit."
+          fi

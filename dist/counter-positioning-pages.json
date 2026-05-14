@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.333Z",
+  "pages": [
+    {
+      "route": "/comparativos/apiplacas-com-br",
+      "pageType": "competitive-comparison",
+      "competitorDomain": "apiplacas.com.br",
+      "titlePattern": "Alternativa a apiplacas.com.br para consulta veicular",
+      "descriptionPattern": "Compare cobertura de consultas veiculares e veja uma alternativa focada em integracao e escala.",
+      "primaryCtaUrl": "https://apibrasil.com.br",
+      "primaryCtaLabel": "Conhecer APIBRASIL",
+      "suggestedSchema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/comparativos/olhoonocarro-com-br",
+      "pageType": "competitive-comparison",
+      "competitorDomain": "olhoonocarro.com.br",
+      "titlePattern": "Alternativa a olhoonocarro.com.br para consulta veicular",
+      "descriptionPattern": "Compare cobertura de consultas veiculares e veja uma alternativa focada em integracao e escala.",
+      "primaryCtaUrl": "https://apibrasil.com.br",
+      "primaryCtaLabel": "Conhecer APIBRASIL",
+      "suggestedSchema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "route": "/comparativos/doutormultas-com-br",
+      "pageType": "competitive-comparison",
+      "competitorDomain": "doutormultas.com.br",
+      "titlePattern": "Alternativa a doutormultas.com.br para consulta veicular",
+      "descriptionPattern": "Compare cobertura de consultas veiculares e veja uma alternativa focada em integracao e escala.",
+      "primaryCtaUrl": "https://apibrasil.com.br",
+      "primaryCtaLabel": "Conhecer APIBRASIL",
+      "suggestedSchema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}

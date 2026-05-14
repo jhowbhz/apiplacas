@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.334Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "items": [
+    {
+      "route": "/consulta/placa",
+      "question": "Como fazer consulta de placa com seguranca?",
+      "answer": "Consulta de placa: saiba historico, debitos e restricoes. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/renavam",
+      "question": "Como fazer consulta renavam com seguranca?",
+      "answer": "Consulta RENAVAM: veja informacoes do veiculo online. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/fipe",
+      "question": "Como fazer consulta fipe com seguranca?",
+      "answer": "Consulta FIPE: descubra o valor de mercado do veiculo. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "comercial",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "question": "Como fazer consulta historico veicular com seguranca?",
+      "answer": "Consulta historico veicular completo por placa. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "question": "Como fazer consulta debito veicular com seguranca?",
+      "answer": "Consulta debito veicular: IPVA, multas e taxas. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "question": "Como fazer consulta veiculo roubado com seguranca?",
+      "answer": "Consulta de veiculo roubado por placa. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "seguranca",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/gravame",
+      "question": "Como fazer consulta gravame com seguranca?",
+      "answer": "Consulta gravame: veja restricoes financeiras do veiculo. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/leilao",
+      "question": "Como fazer consulta leilao com seguranca?",
+      "answer": "Consulta leilao: descubra passagem por leilao. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/sinistro",
+      "question": "Como fazer consulta sinistro com seguranca?",
+      "answer": "Consulta sinistro: confira ocorrencias e perda total. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "transacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "question": "Como fazer consulta proprietario por placa com seguranca?",
+      "answer": "Consulta de proprietario por placa: limites legais e usos permitidos. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "informacional-legal",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "question": "Como fazer consulta veicular com seguranca?",
+      "answer": "API de consulta veicular para produtos e operacoes. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "comercial",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "question": "Como fazer consulta veicular com seguranca?",
+      "answer": "Comparativo de solucoes para consulta veicular. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "comercial",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "question": "Como fazer consulta veicular com seguranca?",
+      "answer": "Tutorial: como consultar placa e reduzir risco na compra. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "informacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "question": "Como fazer consulta veicular com seguranca?",
+      "answer": "FAQ de consulta veicular: duvidas frequentes. Acesse https://apibrasil.com.br para executar a consulta e verificar dados relevantes antes de decidir.",
+      "intent": "informacional",
+      "ctaUrl": "https://apibrasil.com.br"
+    }
+  ]
+}

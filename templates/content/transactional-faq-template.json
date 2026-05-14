@@ -1,0 +1,23 @@
+{
+  "templateVersion": 2,
+  "templateType": "transactional_faq_seo",
+  "fields": {
+    "route": "{{ROUTE}}",
+    "primaryIntent": "{{INTENT}}",
+    "titleTokenPattern": "{{TITLE}}",
+    "descriptionTokenPattern": "{{DESCRIPTION}}",
+    "faqQuestionTokens": [
+      "{{QUESTION_1}}",
+      "{{QUESTION_2}}",
+      "{{QUESTION_3}}"
+    ],
+    "faqAnswerTokens": [
+      "{{ANSWER_1}}",
+      "{{ANSWER_2}}",
+      "{{ANSWER_3}}"
+    ],
+    "richSnippetEligible": true,
+    "conversionEndpoint": "{{CTA_URL}}",
+    "conversionLabelToken": "{{CTA_LABEL}}"
+  }
+}

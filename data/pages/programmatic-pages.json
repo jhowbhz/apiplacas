@@ -1,0 +1,145 @@
+{
+  "pages": [
+    {
+      "slug": "consulta-placa",
+      "route": "/consulta/placa",
+      "titlePattern": "Consulta de placa: saiba historico, debitos e restricoes",
+      "descriptionPattern": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender.",
+      "searchIntent": "transacional",
+      "clusterId": "consulta-placa",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar agora na APIBRASIL"
+    },
+    {
+      "slug": "consulta-renavam",
+      "route": "/consulta/renavam",
+      "titlePattern": "Consulta RENAVAM: veja informacoes do veiculo online",
+      "descriptionPattern": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis.",
+      "searchIntent": "transacional",
+      "clusterId": "consulta-renavam",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar RENAVAM na APIBRASIL"
+    },
+    {
+      "slug": "consulta-fipe",
+      "route": "/consulta/fipe",
+      "titlePattern": "Consulta FIPE: descubra o valor de mercado do veiculo",
+      "descriptionPattern": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo.",
+      "searchIntent": "comercial",
+      "clusterId": "consulta-fipe",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar FIPE com APIBRASIL"
+    },
+    {
+      "slug": "consulta-historico-veicular",
+      "route": "/consulta/historico-veicular",
+      "titlePattern": "Consulta historico veicular completo por placa",
+      "descriptionPattern": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco.",
+      "searchIntent": "transacional",
+      "clusterId": "historico-veicular",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Ver historico na APIBRASIL"
+    },
+    {
+      "slug": "consulta-debito-veicular",
+      "route": "/consulta/debito-veicular",
+      "titlePattern": "Consulta debito veicular: IPVA, multas e taxas",
+      "descriptionPattern": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao.",
+      "searchIntent": "transacional",
+      "clusterId": "debitos-veiculares",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar debitos na APIBRASIL"
+    },
+    {
+      "slug": "consulta-veiculo-roubado",
+      "route": "/consulta/veiculo-roubado",
+      "titlePattern": "Consulta de veiculo roubado por placa",
+      "descriptionPattern": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda.",
+      "searchIntent": "seguranca",
+      "clusterId": "roubo-furto",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Checar restricao na APIBRASIL"
+    },
+    {
+      "slug": "consulta-gravame",
+      "route": "/consulta/gravame",
+      "titlePattern": "Consulta gravame: veja restricoes financeiras do veiculo",
+      "descriptionPattern": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao.",
+      "searchIntent": "transacional",
+      "clusterId": "gravame",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar gravame na APIBRASIL"
+    },
+    {
+      "slug": "consulta-leilao",
+      "route": "/consulta/leilao",
+      "titlePattern": "Consulta leilao: descubra passagem por leilao",
+      "descriptionPattern": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda.",
+      "searchIntent": "transacional",
+      "clusterId": "leilao",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar leilao na APIBRASIL"
+    },
+    {
+      "slug": "consulta-sinistro",
+      "route": "/consulta/sinistro",
+      "titlePattern": "Consulta sinistro: confira ocorrencias e perda total",
+      "descriptionPattern": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade.",
+      "searchIntent": "transacional",
+      "clusterId": "sinistro",
+      "primarySchema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Consultar sinistro na APIBRASIL"
+    },
+    {
+      "slug": "consulta-proprietario-por-placa",
+      "route": "/consulta/proprietario-por-placa",
+      "titlePattern": "Consulta de proprietario por placa: limites legais e usos permitidos",
+      "descriptionPattern": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal.",
+      "searchIntent": "informacional-legal",
+      "clusterId": "proprietario-por-placa",
+      "primarySchema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "primaryCta": "Conhecer consultas APIBRASIL",
+      "legalDisclaimer": "Disponibilidade e detalhamento dos dados dependem de base legal, finalidade legitima e cumprimento da LGPD."
+    }
+  ]
+}

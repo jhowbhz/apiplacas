@@ -1,0 +1,110 @@
+{
+  "competitors": [
+    {
+      "domain": "apiplacas.com.br",
+      "keywords": [
+        {
+          "keyword": "consulta de placa",
+          "intent": "transacional",
+          "clusterHint": "consulta-placa",
+          "demandBucket": "high",
+          "difficulty": 0.72
+        },
+        {
+          "keyword": "consulta placa de carro online",
+          "intent": "transacional",
+          "clusterHint": "consulta-placa",
+          "demandBucket": "high",
+          "difficulty": 0.67
+        },
+        {
+          "keyword": "historico veicular por placa",
+          "intent": "transacional",
+          "clusterHint": "historico-veicular",
+          "demandBucket": "high",
+          "difficulty": 0.65
+        },
+        {
+          "keyword": "consulta leilao por placa",
+          "intent": "transacional",
+          "clusterHint": "leilao",
+          "demandBucket": "medium",
+          "difficulty": 0.62
+        },
+        {
+          "keyword": "consulta sinistro veiculo",
+          "intent": "transacional",
+          "clusterHint": "sinistro",
+          "demandBucket": "medium",
+          "difficulty": 0.61
+        },
+        {
+          "keyword": "consulta debito veicular por placa",
+          "intent": "transacional",
+          "clusterHint": "debitos-veiculares",
+          "demandBucket": "high",
+          "difficulty": 0.68
+        }
+      ]
+    },
+    {
+      "domain": "olhoonocarro.com.br",
+      "keywords": [
+        {
+          "keyword": "laudo cautelar online",
+          "intent": "comercial",
+          "clusterHint": "historico-veicular",
+          "demandBucket": "high",
+          "difficulty": 0.78
+        },
+        {
+          "keyword": "carro de leilao como saber",
+          "intent": "informacional",
+          "clusterHint": "leilao",
+          "demandBucket": "medium",
+          "difficulty": 0.56
+        },
+        {
+          "keyword": "veiculo com gravame",
+          "intent": "transacional",
+          "clusterHint": "gravame",
+          "demandBucket": "medium",
+          "difficulty": 0.58
+        },
+        {
+          "keyword": "consulta veiculo roubado pela placa",
+          "intent": "seguranca",
+          "clusterHint": "roubo-furto",
+          "demandBucket": "medium",
+          "difficulty": 0.64
+        }
+      ]
+    },
+    {
+      "domain": "doutormultas.com.br",
+      "keywords": [
+        {
+          "keyword": "consultar multas de veiculo",
+          "intent": "transacional",
+          "clusterHint": "debitos-veiculares",
+          "demandBucket": "high",
+          "difficulty": 0.66
+        },
+        {
+          "keyword": "consulta renavam online",
+          "intent": "transacional",
+          "clusterHint": "consulta-renavam",
+          "demandBucket": "high",
+          "difficulty": 0.71
+        },
+        {
+          "keyword": "ipva atrasado como consultar",
+          "intent": "informacional",
+          "clusterHint": "debitos-veiculares",
+          "demandBucket": "medium",
+          "difficulty": 0.52
+        }
+      ]
+    }
+  ]
+}

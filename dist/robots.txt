@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /interno/
+Disallow: /rascunho/
+Sitemap: https://www.apiplacas.com.br/sitemap-index.xml

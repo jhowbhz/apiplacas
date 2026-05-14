@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.333Z",
+  "maxItems": 10,
+  "items": [
+    {
+      "id": "seo-gap-001",
+      "keyword": "consulta placa de carro online",
+      "intent": "transacional",
+      "clusterId": "consulta-placa",
+      "targetRoute": "/consulta/placa",
+      "priorityScore": 80,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-002",
+      "keyword": "historico veicular por placa",
+      "intent": "transacional",
+      "clusterId": "historico-veicular",
+      "targetRoute": "/consulta/historico-veicular",
+      "priorityScore": 80,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-003",
+      "keyword": "consultar multas de veiculo",
+      "intent": "transacional",
+      "clusterId": "debitos-veiculares",
+      "targetRoute": "/consulta/debito-veicular",
+      "priorityScore": 80,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-004",
+      "keyword": "consulta debito veicular por placa",
+      "intent": "transacional",
+      "clusterId": "debitos-veiculares",
+      "targetRoute": "/consulta/debito-veicular",
+      "priorityScore": 79,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-005",
+      "keyword": "consulta renavam online",
+      "intent": "transacional",
+      "clusterId": "consulta-renavam",
+      "targetRoute": "/consulta/renavam",
+      "priorityScore": 79,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-006",
+      "keyword": "consulta leilao por placa",
+      "intent": "transacional",
+      "clusterId": "leilao",
+      "targetRoute": "/consulta/leilao",
+      "priorityScore": 71,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-007",
+      "keyword": "consulta sinistro veiculo",
+      "intent": "transacional",
+      "clusterId": "sinistro",
+      "targetRoute": "/consulta/sinistro",
+      "priorityScore": 71,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-008",
+      "keyword": "consulta veiculo roubado pela placa",
+      "intent": "seguranca",
+      "clusterId": "roubo-furto",
+      "targetRoute": "/consulta/veiculo-roubado",
+      "priorityScore": 56,
+      "sourceCompetitors": [
+        "olhoonocarro.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-009",
+      "keyword": "ipva atrasado como consultar",
+      "intent": "informacional",
+      "clusterId": "debitos-veiculares",
+      "targetRoute": "/consulta/debito-veicular",
+      "priorityScore": 51,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    },
+    {
+      "id": "seo-gap-010",
+      "keyword": "carro de leilao como saber",
+      "intent": "informacional",
+      "clusterId": "leilao",
+      "targetRoute": "/consulta/leilao",
+      "priorityScore": 50,
+      "sourceCompetitors": [
+        "olhoonocarro.com.br"
+      ],
+      "action": "optimize_or_create_programmatic_asset",
+      "status": "pending"
+    }
+  ]
+}

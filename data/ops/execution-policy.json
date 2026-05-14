@@ -1,0 +1,9 @@
+{
+  "aggressiveTopN": 20,
+  "cadence": {
+    "cycleWeeks": 4,
+    "publishPerWeek": 5,
+    "optimizePerWeek": 6,
+    "interlinkPerWeek": 20
+  }
+}

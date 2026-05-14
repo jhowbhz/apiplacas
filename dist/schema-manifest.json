@@ -1,0 +1,331 @@
+{
+  "sharedEntities": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "APIBRASIL",
+      "url": "https://apibrasil.com.br"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "APIBRASIL SEO Hub",
+      "url": "https://www.apiplacas.com.br",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.apiplacas.com.br/buscar?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "route": "/consulta/placa",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta de placa: saiba historico, debitos e restricoes",
+          "description": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender.",
+          "url": "https://www.apiplacas.com.br/consulta/placa"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta de placa: saiba historico, debitos e restricoes",
+          "description": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender.",
+          "url": "https://www.apiplacas.com.br/consulta/placa"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta de placa: saiba historico, debitos e restricoes",
+          "description": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender.",
+          "url": "https://www.apiplacas.com.br/consulta/placa"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/renavam",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta RENAVAM: veja informacoes do veiculo online",
+          "description": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis.",
+          "url": "https://www.apiplacas.com.br/consulta/renavam"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta RENAVAM: veja informacoes do veiculo online",
+          "description": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis.",
+          "url": "https://www.apiplacas.com.br/consulta/renavam"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta RENAVAM: veja informacoes do veiculo online",
+          "description": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis.",
+          "url": "https://www.apiplacas.com.br/consulta/renavam"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/fipe",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta FIPE: descubra o valor de mercado do veiculo",
+          "description": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo.",
+          "url": "https://www.apiplacas.com.br/consulta/fipe"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta FIPE: descubra o valor de mercado do veiculo",
+          "description": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo.",
+          "url": "https://www.apiplacas.com.br/consulta/fipe"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta FIPE: descubra o valor de mercado do veiculo",
+          "description": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo.",
+          "url": "https://www.apiplacas.com.br/consulta/fipe"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta historico veicular completo por placa",
+          "description": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco.",
+          "url": "https://www.apiplacas.com.br/consulta/historico-veicular"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta historico veicular completo por placa",
+          "description": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco.",
+          "url": "https://www.apiplacas.com.br/consulta/historico-veicular"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta historico veicular completo por placa",
+          "description": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco.",
+          "url": "https://www.apiplacas.com.br/consulta/historico-veicular"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta debito veicular: IPVA, multas e taxas",
+          "description": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao.",
+          "url": "https://www.apiplacas.com.br/consulta/debito-veicular"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta debito veicular: IPVA, multas e taxas",
+          "description": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao.",
+          "url": "https://www.apiplacas.com.br/consulta/debito-veicular"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta debito veicular: IPVA, multas e taxas",
+          "description": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao.",
+          "url": "https://www.apiplacas.com.br/consulta/debito-veicular"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta de veiculo roubado por placa",
+          "description": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda.",
+          "url": "https://www.apiplacas.com.br/consulta/veiculo-roubado"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta de veiculo roubado por placa",
+          "description": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda.",
+          "url": "https://www.apiplacas.com.br/consulta/veiculo-roubado"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta de veiculo roubado por placa",
+          "description": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda.",
+          "url": "https://www.apiplacas.com.br/consulta/veiculo-roubado"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/gravame",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta gravame: veja restricoes financeiras do veiculo",
+          "description": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao.",
+          "url": "https://www.apiplacas.com.br/consulta/gravame"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta gravame: veja restricoes financeiras do veiculo",
+          "description": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao.",
+          "url": "https://www.apiplacas.com.br/consulta/gravame"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta gravame: veja restricoes financeiras do veiculo",
+          "description": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao.",
+          "url": "https://www.apiplacas.com.br/consulta/gravame"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/leilao",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta leilao: descubra passagem por leilao",
+          "description": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda.",
+          "url": "https://www.apiplacas.com.br/consulta/leilao"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta leilao: descubra passagem por leilao",
+          "description": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda.",
+          "url": "https://www.apiplacas.com.br/consulta/leilao"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta leilao: descubra passagem por leilao",
+          "description": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda.",
+          "url": "https://www.apiplacas.com.br/consulta/leilao"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/sinistro",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Consulta sinistro: confira ocorrencias e perda total",
+          "description": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade.",
+          "url": "https://www.apiplacas.com.br/consulta/sinistro"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta sinistro: confira ocorrencias e perda total",
+          "description": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade.",
+          "url": "https://www.apiplacas.com.br/consulta/sinistro"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta sinistro: confira ocorrencias e perda total",
+          "description": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade.",
+          "url": "https://www.apiplacas.com.br/consulta/sinistro"
+        }
+      ]
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Consulta de proprietario por placa: limites legais e usos permitidos",
+          "description": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal.",
+          "url": "https://www.apiplacas.com.br/consulta/proprietario-por-placa"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "name": "Consulta de proprietario por placa: limites legais e usos permitidos",
+          "description": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal.",
+          "url": "https://www.apiplacas.com.br/consulta/proprietario-por-placa"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "name": "Consulta de proprietario por placa: limites legais e usos permitidos",
+          "description": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal.",
+          "url": "https://www.apiplacas.com.br/consulta/proprietario-por-placa"
+        }
+      ]
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "API de consulta veicular para produtos e operacoes",
+          "description": "Integre consultas de placa, RENAVAM, historico, debitos e restricoes em um unico fluxo.",
+          "url": "https://www.apiplacas.com.br/api/consulta-veicular"
+        }
+      ]
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Comparativo de solucoes para consulta veicular",
+          "description": "Compare cobertura de dados, latencia e aplicacoes para escolher a melhor API de consulta.",
+          "url": "https://www.apiplacas.com.br/comparativos/consulta-veicular"
+        }
+      ]
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Tutorial: como consultar placa e reduzir risco na compra",
+          "description": "Passo a passo pratico para validar informacoes de um veiculo antes da negociacao.",
+          "url": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa"
+        }
+      ]
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "FAQ de consulta veicular: duvidas frequentes",
+          "description": "Respostas objetivas para as principais duvidas de consulta de placa, RENAVAM e historico.",
+          "url": "https://www.apiplacas.com.br/faq/consulta-veicular"
+        }
+      ]
+    }
+  ]
+}

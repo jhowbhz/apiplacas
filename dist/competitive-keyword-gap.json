@@ -1,0 +1,293 @@
+{
+  "generatedAt": "2026-05-14T16:30:45.333Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "summary": {
+    "competitors": 3,
+    "trackedKeywords": 13,
+    "uniqueObservedKeywords": 13,
+    "uniqueCoveredKeywords": 3,
+    "uniqueGapKeywords": 10,
+    "coverageRate": 0.23
+  },
+  "competitors": [
+    {
+      "domain": "apiplacas.com.br",
+      "trackedKeywords": 6,
+      "coveredKeywords": 1,
+      "gapKeywords": 5,
+      "coverageRate": 0.17,
+      "topGaps": [
+        {
+          "keyword": "consulta placa de carro online",
+          "normalizedKeyword": "consulta placa de carro online",
+          "intent": "transacional",
+          "clusterId": "consulta-placa",
+          "suggestedRoute": "/consulta/placa",
+          "demandBucket": "high",
+          "difficulty": 0.67,
+          "sourceCompetitor": "apiplacas.com.br",
+          "opportunityScore": 80
+        },
+        {
+          "keyword": "historico veicular por placa",
+          "normalizedKeyword": "historico veicular por placa",
+          "intent": "transacional",
+          "clusterId": "historico-veicular",
+          "suggestedRoute": "/consulta/historico-veicular",
+          "demandBucket": "high",
+          "difficulty": 0.65,
+          "sourceCompetitor": "apiplacas.com.br",
+          "opportunityScore": 80
+        },
+        {
+          "keyword": "consulta debito veicular por placa",
+          "normalizedKeyword": "consulta debito veicular por placa",
+          "intent": "transacional",
+          "clusterId": "debitos-veiculares",
+          "suggestedRoute": "/consulta/debito-veicular",
+          "demandBucket": "high",
+          "difficulty": 0.68,
+          "sourceCompetitor": "apiplacas.com.br",
+          "opportunityScore": 79
+        },
+        {
+          "keyword": "consulta leilao por placa",
+          "normalizedKeyword": "consulta leilao por placa",
+          "intent": "transacional",
+          "clusterId": "leilao",
+          "suggestedRoute": "/consulta/leilao",
+          "demandBucket": "medium",
+          "difficulty": 0.62,
+          "sourceCompetitor": "apiplacas.com.br",
+          "opportunityScore": 71
+        },
+        {
+          "keyword": "consulta sinistro veiculo",
+          "normalizedKeyword": "consulta sinistro veiculo",
+          "intent": "transacional",
+          "clusterId": "sinistro",
+          "suggestedRoute": "/consulta/sinistro",
+          "demandBucket": "medium",
+          "difficulty": 0.61,
+          "sourceCompetitor": "apiplacas.com.br",
+          "opportunityScore": 71
+        }
+      ]
+    },
+    {
+      "domain": "olhoonocarro.com.br",
+      "trackedKeywords": 4,
+      "coveredKeywords": 2,
+      "gapKeywords": 2,
+      "coverageRate": 0.5,
+      "topGaps": [
+        {
+          "keyword": "consulta veiculo roubado pela placa",
+          "normalizedKeyword": "consulta veiculo roubado pela placa",
+          "intent": "seguranca",
+          "clusterId": "roubo-furto",
+          "suggestedRoute": "/consulta/veiculo-roubado",
+          "demandBucket": "medium",
+          "difficulty": 0.64,
+          "sourceCompetitor": "olhoonocarro.com.br",
+          "opportunityScore": 56
+        },
+        {
+          "keyword": "carro de leilao como saber",
+          "normalizedKeyword": "carro de leilao como saber",
+          "intent": "informacional",
+          "clusterId": "leilao",
+          "suggestedRoute": "/consulta/leilao",
+          "demandBucket": "medium",
+          "difficulty": 0.56,
+          "sourceCompetitor": "olhoonocarro.com.br",
+          "opportunityScore": 50
+        }
+      ]
+    },
+    {
+      "domain": "doutormultas.com.br",
+      "trackedKeywords": 3,
+      "coveredKeywords": 0,
+      "gapKeywords": 3,
+      "coverageRate": 0,
+      "topGaps": [
+        {
+          "keyword": "consultar multas de veiculo",
+          "normalizedKeyword": "consultar multas de veiculo",
+          "intent": "transacional",
+          "clusterId": "debitos-veiculares",
+          "suggestedRoute": "/consulta/debito-veicular",
+          "demandBucket": "high",
+          "difficulty": 0.66,
+          "sourceCompetitor": "doutormultas.com.br",
+          "opportunityScore": 80
+        },
+        {
+          "keyword": "consulta renavam online",
+          "normalizedKeyword": "consulta renavam online",
+          "intent": "transacional",
+          "clusterId": "consulta-renavam",
+          "suggestedRoute": "/consulta/renavam",
+          "demandBucket": "high",
+          "difficulty": 0.71,
+          "sourceCompetitor": "doutormultas.com.br",
+          "opportunityScore": 79
+        },
+        {
+          "keyword": "ipva atrasado como consultar",
+          "normalizedKeyword": "ipva atrasado como consultar",
+          "intent": "informacional",
+          "clusterId": "debitos-veiculares",
+          "suggestedRoute": "/consulta/debito-veicular",
+          "demandBucket": "medium",
+          "difficulty": 0.52,
+          "sourceCompetitor": "doutormultas.com.br",
+          "opportunityScore": 51
+        }
+      ]
+    }
+  ],
+  "globalGaps": [
+    {
+      "keyword": "consulta placa de carro online",
+      "normalizedKeyword": "consulta placa de carro online",
+      "intent": "transacional",
+      "clusterId": "consulta-placa",
+      "suggestedRoute": "/consulta/placa",
+      "demandBucket": "high",
+      "difficulty": 0.67,
+      "sourceCompetitor": "apiplacas.com.br",
+      "opportunityScore": 80,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ]
+    },
+    {
+      "keyword": "historico veicular por placa",
+      "normalizedKeyword": "historico veicular por placa",
+      "intent": "transacional",
+      "clusterId": "historico-veicular",
+      "suggestedRoute": "/consulta/historico-veicular",
+      "demandBucket": "high",
+      "difficulty": 0.65,
+      "sourceCompetitor": "apiplacas.com.br",
+      "opportunityScore": 80,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ]
+    },
+    {
+      "keyword": "consultar multas de veiculo",
+      "normalizedKeyword": "consultar multas de veiculo",
+      "intent": "transacional",
+      "clusterId": "debitos-veiculares",
+      "suggestedRoute": "/consulta/debito-veicular",
+      "demandBucket": "high",
+      "difficulty": 0.66,
+      "sourceCompetitor": "doutormultas.com.br",
+      "opportunityScore": 80,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ]
+    },
+    {
+      "keyword": "consulta debito veicular por placa",
+      "normalizedKeyword": "consulta debito veicular por placa",
+      "intent": "transacional",
+      "clusterId": "debitos-veiculares",
+      "suggestedRoute": "/consulta/debito-veicular",
+      "demandBucket": "high",
+      "difficulty": 0.68,
+      "sourceCompetitor": "apiplacas.com.br",
+      "opportunityScore": 79,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ]
+    },
+    {
+      "keyword": "consulta renavam online",
+      "normalizedKeyword": "consulta renavam online",
+      "intent": "transacional",
+      "clusterId": "consulta-renavam",
+      "suggestedRoute": "/consulta/renavam",
+      "demandBucket": "high",
+      "difficulty": 0.71,
+      "sourceCompetitor": "doutormultas.com.br",
+      "opportunityScore": 79,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ]
+    },
+    {
+      "keyword": "consulta leilao por placa",
+      "normalizedKeyword": "consulta leilao por placa",
+      "intent": "transacional",
+      "clusterId": "leilao",
+      "suggestedRoute": "/consulta/leilao",
+      "demandBucket": "medium",
+      "difficulty": 0.62,
+      "sourceCompetitor": "apiplacas.com.br",
+      "opportunityScore": 71,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ]
+    },
+    {
+      "keyword": "consulta sinistro veiculo",
+      "normalizedKeyword": "consulta sinistro veiculo",
+      "intent": "transacional",
+      "clusterId": "sinistro",
+      "suggestedRoute": "/consulta/sinistro",
+      "demandBucket": "medium",
+      "difficulty": 0.61,
+      "sourceCompetitor": "apiplacas.com.br",
+      "opportunityScore": 71,
+      "sourceCompetitors": [
+        "apiplacas.com.br"
+      ]
+    },
+    {
+      "keyword": "consulta veiculo roubado pela placa",
+      "normalizedKeyword": "consulta veiculo roubado pela placa",
+      "intent": "seguranca",
+      "clusterId": "roubo-furto",
+      "suggestedRoute": "/consulta/veiculo-roubado",
+      "demandBucket": "medium",
+      "difficulty": 0.64,
+      "sourceCompetitor": "olhoonocarro.com.br",
+      "opportunityScore": 56,
+      "sourceCompetitors": [
+        "olhoonocarro.com.br"
+      ]
+    },
+    {
+      "keyword": "ipva atrasado como consultar",
+      "normalizedKeyword": "ipva atrasado como consultar",
+      "intent": "informacional",
+      "clusterId": "debitos-veiculares",
+      "suggestedRoute": "/consulta/debito-veicular",
+      "demandBucket": "medium",
+      "difficulty": 0.52,
+      "sourceCompetitor": "doutormultas.com.br",
+      "opportunityScore": 51,
+      "sourceCompetitors": [
+        "doutormultas.com.br"
+      ]
+    },
+    {
+      "keyword": "carro de leilao como saber",
+      "normalizedKeyword": "carro de leilao como saber",
+      "intent": "informacional",
+      "clusterId": "leilao",
+      "suggestedRoute": "/consulta/leilao",
+      "demandBucket": "medium",
+      "difficulty": 0.56,
+      "sourceCompetitor": "olhoonocarro.com.br",
+      "opportunityScore": 50,
+      "sourceCompetitors": [
+        "olhoonocarro.com.br"
+      ]
+    }
+  ]
+}

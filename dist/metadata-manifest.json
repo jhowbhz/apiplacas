@@ -1,0 +1,156 @@
+[
+  {
+    "route": "/consulta/placa",
+    "title": "Consulta de placa: saiba historico, debitos e restricoes",
+    "description": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender.",
+    "canonical": "https://www.apiplacas.com.br/consulta/placa",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/placa",
+      "x-default": "https://www.apiplacas.com.br/consulta/placa"
+    }
+  },
+  {
+    "route": "/consulta/renavam",
+    "title": "Consulta RENAVAM: veja informacoes do veiculo online",
+    "description": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis.",
+    "canonical": "https://www.apiplacas.com.br/consulta/renavam",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/renavam",
+      "x-default": "https://www.apiplacas.com.br/consulta/renavam"
+    }
+  },
+  {
+    "route": "/consulta/fipe",
+    "title": "Consulta FIPE: descubra o valor de mercado do veiculo",
+    "description": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo.",
+    "canonical": "https://www.apiplacas.com.br/consulta/fipe",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/fipe",
+      "x-default": "https://www.apiplacas.com.br/consulta/fipe"
+    }
+  },
+  {
+    "route": "/consulta/historico-veicular",
+    "title": "Consulta historico veicular completo por placa",
+    "description": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco.",
+    "canonical": "https://www.apiplacas.com.br/consulta/historico-veicular",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/historico-veicular",
+      "x-default": "https://www.apiplacas.com.br/consulta/historico-veicular"
+    }
+  },
+  {
+    "route": "/consulta/debito-veicular",
+    "title": "Consulta debito veicular: IPVA, multas e taxas",
+    "description": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao.",
+    "canonical": "https://www.apiplacas.com.br/consulta/debito-veicular",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/debito-veicular",
+      "x-default": "https://www.apiplacas.com.br/consulta/debito-veicular"
+    }
+  },
+  {
+    "route": "/consulta/veiculo-roubado",
+    "title": "Consulta de veiculo roubado por placa",
+    "description": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda.",
+    "canonical": "https://www.apiplacas.com.br/consulta/veiculo-roubado",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/veiculo-roubado",
+      "x-default": "https://www.apiplacas.com.br/consulta/veiculo-roubado"
+    }
+  },
+  {
+    "route": "/consulta/gravame",
+    "title": "Consulta gravame: veja restricoes financeiras do veiculo",
+    "description": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao.",
+    "canonical": "https://www.apiplacas.com.br/consulta/gravame",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/gravame",
+      "x-default": "https://www.apiplacas.com.br/consulta/gravame"
+    }
+  },
+  {
+    "route": "/consulta/leilao",
+    "title": "Consulta leilao: descubra passagem por leilao",
+    "description": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda.",
+    "canonical": "https://www.apiplacas.com.br/consulta/leilao",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/leilao",
+      "x-default": "https://www.apiplacas.com.br/consulta/leilao"
+    }
+  },
+  {
+    "route": "/consulta/sinistro",
+    "title": "Consulta sinistro: confira ocorrencias e perda total",
+    "description": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade.",
+    "canonical": "https://www.apiplacas.com.br/consulta/sinistro",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/sinistro",
+      "x-default": "https://www.apiplacas.com.br/consulta/sinistro"
+    }
+  },
+  {
+    "route": "/consulta/proprietario-por-placa",
+    "title": "Consulta de proprietario por placa: limites legais e usos permitidos",
+    "description": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal.",
+    "canonical": "https://www.apiplacas.com.br/consulta/proprietario-por-placa",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/consulta/proprietario-por-placa",
+      "x-default": "https://www.apiplacas.com.br/consulta/proprietario-por-placa"
+    }
+  },
+  {
+    "route": "/api/consulta-veicular",
+    "title": "API de consulta veicular para produtos e operacoes",
+    "description": "Integre consultas de placa, RENAVAM, historico, debitos e restricoes em um unico fluxo.",
+    "canonical": "https://www.apiplacas.com.br/api/consulta-veicular",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/api/consulta-veicular",
+      "x-default": "https://www.apiplacas.com.br/api/consulta-veicular"
+    }
+  },
+  {
+    "route": "/comparativos/consulta-veicular",
+    "title": "Comparativo de solucoes para consulta veicular",
+    "description": "Compare cobertura de dados, latencia e aplicacoes para escolher a melhor API de consulta.",
+    "canonical": "https://www.apiplacas.com.br/comparativos/consulta-veicular",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/comparativos/consulta-veicular",
+      "x-default": "https://www.apiplacas.com.br/comparativos/consulta-veicular"
+    }
+  },
+  {
+    "route": "/tutoriais/como-consultar-placa",
+    "title": "Tutorial: como consultar placa e reduzir risco na compra",
+    "description": "Passo a passo pratico para validar informacoes de um veiculo antes da negociacao.",
+    "canonical": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa",
+      "x-default": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa"
+    }
+  },
+  {
+    "route": "/faq/consulta-veicular",
+    "title": "FAQ de consulta veicular: duvidas frequentes",
+    "description": "Respostas objetivas para as principais duvidas de consulta de placa, RENAVAM e historico.",
+    "canonical": "https://www.apiplacas.com.br/faq/consulta-veicular",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "alternates": {
+      "pt-BR": "https://www.apiplacas.com.br/faq/consulta-veicular",
+      "x-default": "https://www.apiplacas.com.br/faq/consulta-veicular"
+    }
+  }
+]
