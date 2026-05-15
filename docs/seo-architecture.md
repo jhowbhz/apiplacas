@@ -34,6 +34,7 @@
 - `dist/sitemaps/sitemap-transactional.xml`: cobertura de rotas transacionais.
 - `dist/sitemaps/sitemap-legal.xml`: cobertura de rotas sensiveis.
 - `dist/robots.txt`: politicas de rastreio e endpoint de sitemap.
+- `dist/site-verification/google-meta-tag.html`: meta tag pronta para Google Search Console.
 - `dist/competitive-keyword-gap.json`: lacunas de keyword vs concorrentes.
 - `dist/competitive-backlog.json`: backlog priorizado por oportunidade competitiva.
 - `dist/aggressive-priority-top.json`: top de ataque por score de oportunidade.

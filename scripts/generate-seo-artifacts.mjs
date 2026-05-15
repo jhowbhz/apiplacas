@@ -1012,6 +1012,14 @@ const buildLlmsTxt = ({ canonicalHost, targetDomain, routes, aiRoutingManifest }
   return `${lines.join("\n")}\n`;
 };
 
+const buildGoogleVerificationMetaTag = (googleSiteVerificationToken) => {
+  if (!googleSiteVerificationToken) {
+    return "";
+  }
+
+  return `<meta name="google-site-verification" content="${googleSiteVerificationToken}" />\n`;
+};
+
 const buildIndexationPolicy = ({ routes }) => {
   const directives = routes.map((route) => {
     const isLegalSensitive = route.route.includes("/proprietario-por-placa");
@@ -1300,6 +1308,9 @@ const main = async () => {
     routes,
     aiRoutingManifest
   });
+  const googleVerificationMetaTag = buildGoogleVerificationMetaTag(
+    config.verification?.googleSiteVerification
+  );
 
   if (checkMode) {
     console.log(`Routes: ${routes.length}`);
@@ -1326,6 +1337,9 @@ const main = async () => {
     console.log(`CTR route variants: ${ctrVariants.variants.length}`);
     console.log(`Entity coverage audits: ${entityCoverageAudit.audits.length}`);
     console.log(`AI citation priorities: ${aiCitationPriority.priorities.length}`);
+    console.log(
+      `Google verification configured: ${googleVerificationMetaTag ? "yes" : "no"}`
+    );
     console.log(`Counter-position pages: ${competitiveIntelligence.counterPositioningPages.pages.length}`);
     console.log("SEO artifacts check completed.");
     return;
@@ -1369,6 +1383,9 @@ const main = async () => {
   await writeFile("dist/ctr-variants.json", `${JSON.stringify(ctrVariants, null, 2)}\n`);
   await writeFile("dist/entity-coverage-audit.json", `${JSON.stringify(entityCoverageAudit, null, 2)}\n`);
   await writeFile("dist/ai-citation-priority.json", `${JSON.stringify(aiCitationPriority, null, 2)}\n`);
+  if (googleVerificationMetaTag) {
+    await writeFile("dist/site-verification/google-meta-tag.html", googleVerificationMetaTag);
+  }
 
   console.log(`Generated SEO artifacts in ${distDir}`);
 };

@@ -16,5 +16,8 @@
     "primaryCtaUrl": "https://apibrasil.com.br",
     "secondaryCtaLabel": "Conhecer API de consultas veiculares",
     "secondaryCtaUrl": "https://apibrasil.com.br"
+  },
+  "verification": {
+    "googleSiteVerification": "sQ3kqk1PUBm5Uox94n0RsXrFd_74GYIYFPKvV_oulCY"
   }
 }

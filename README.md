@@ -24,6 +24,7 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 
 - Core SEO: `dist/routes-manifest.json`, `dist/metadata-manifest.json`, `dist/schema-manifest.json`
 - Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
+- Verificacao de buscador: `dist/site-verification/google-meta-tag.html`
 - Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
 - Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`, `dist/ctr-variants.json`, `dist/entity-coverage-audit.json`
 - Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
@@ -44,3 +45,4 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Respostas e assets de IA devem priorizar acao de consulta/integracao API.
 - Conteudos sensiveis devem respeitar LGPD e limites legais.
 - Feeds de IA devem manter `requiredConversionTarget` em `https://apibrasil.com.br`.
+- Para Google Search Console por meta tag, use o snippet gerado em `dist/site-verification/google-meta-tag.html` no `<head>` da pagina inicial.
