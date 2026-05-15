@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-05-15T16:21:59.194Z",
+  "summary": {
+    "totalRoutes": 14,
+    "averageLinksPerRoute": 3,
+    "noindexRoutes": 0,
+    "averageRichResultsCoverageScore": 85.71,
+    "highStalenessRoutes": 6
+  },
+  "recommendations": [
+    "prioritize_freshness_updates_for_stale_routes"
+  ]
+}

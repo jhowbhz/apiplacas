@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-05-15T16:21:59.194Z",
+  "conversionRoute": "/api/consulta-veicular",
+  "links": [
+    {
+      "sourceRoute": "/consulta/placa",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/renavam",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/fipe",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "comercial",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/historico-veicular",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/debito-veicular",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/veiculo-roubado",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "seguranca",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/gravame",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/leilao",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/sinistro",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "transacional",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/consulta/proprietario-por-placa",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "informacional-legal",
+      "priority": "medium"
+    },
+    {
+      "sourceRoute": "/comparativos/consulta-veicular",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "comercial",
+      "priority": "high"
+    },
+    {
+      "sourceRoute": "/tutoriais/como-consultar-placa",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "informacional",
+      "priority": "high"
+    },
+    {
+      "sourceRoute": "/faq/consulta-veicular",
+      "targetRoute": "/api/consulta-veicular",
+      "anchors": [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      "intent": "informacional",
+      "priority": "high"
+    }
+  ]
+}

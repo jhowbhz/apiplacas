@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-05-15T16:21:59.194Z",
+  "entries": [
+    {
+      "route": "/consulta/placa",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/renavam",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/fipe",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/gravame",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/leilao",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/sinistro",
+      "schemas": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "schemas": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "coverageScore": 100,
+      "recommendations": []
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "schemas": [],
+      "coverageScore": 50,
+      "recommendations": [
+        "add_breadcrumb_schema",
+        "add_service_schema"
+      ]
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "schemas": [],
+      "coverageScore": 50,
+      "recommendations": [
+        "add_breadcrumb_schema",
+        "add_service_schema"
+      ]
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "schemas": [],
+      "coverageScore": 50,
+      "recommendations": [
+        "add_breadcrumb_schema",
+        "add_service_schema"
+      ]
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "schemas": [],
+      "coverageScore": 50,
+      "recommendations": [
+        "add_breadcrumb_schema",
+        "add_service_schema"
+      ]
+    }
+  ]
+}
