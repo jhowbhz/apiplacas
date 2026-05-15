@@ -988,6 +988,157 @@ const buildAiCitationPriority = ({
   };
 };
 
+const buildLongTailExpansionPlan = ({ keywordClusters, canonicalHost, targetDomain }) => {
+  const intentModifiers = [
+    "para compra de usado",
+    "para transferencia",
+    "para regularizacao",
+    "para auditoria de frota"
+  ];
+
+  const expansions = [];
+  for (const cluster of keywordClusters) {
+    const baseKeyword = cluster.primaryKeywords?.[0] ?? cluster.id;
+    for (const modifier of intentModifiers) {
+      const suggestedSlug = `${cluster.id}-${modifier
+        .normalize("NFD")
+        .replace(/\p{Diacritic}/gu, "")
+        .replace(/\s+/g, "-")
+        .toLowerCase()}`;
+
+      expansions.push({
+        clusterId: cluster.id,
+        intent: cluster.intent ?? "unknown",
+        keyword: `${baseKeyword} ${modifier}`,
+        suggestedRoute: `/consulta/${suggestedSlug}`,
+        titleSuggestion: `${baseKeyword}: ${modifier}`,
+        descriptionSuggestion: `Entenda ${baseKeyword} ${modifier} e execute a consulta com apoio da APIBRASIL.`,
+        canonicalHost,
+        conversionTarget: targetDomain,
+        priorityScore: cluster.intent === "transacional" ? 85 : 72
+      });
+    }
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    items: expansions.sort((a, b) => b.priorityScore - a.priorityScore)
+  };
+};
+
+const buildInternalAnchorPlan = ({ routes }) => {
+  const conversionRoute = "/api/consulta-veicular";
+  const anchors = [];
+
+  for (const route of routes) {
+    if (route.route === conversionRoute) {
+      continue;
+    }
+
+    anchors.push({
+      sourceRoute: route.route,
+      targetRoute: conversionRoute,
+      anchors: [
+        "consultar agora na APIBRASIL",
+        "integrar consulta veicular via API",
+        "conhecer API de consultas"
+      ],
+      intent: route.searchIntent ?? "unknown",
+      priority: route.pageType === "transactional" ? "high" : "medium"
+    });
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    conversionRoute,
+    links: anchors
+  };
+};
+
+const buildRichResultsCoverage = ({ routes }) => {
+  const entries = routes.map((route) => {
+    const schemas = route.primarySchema ?? [];
+    const hasFaq = schemas.includes("FAQPage");
+    const hasBreadcrumb = schemas.includes("BreadcrumbList");
+    const hasService = schemas.includes("Service");
+
+    const recommendations = [];
+    if (!hasBreadcrumb) {
+      recommendations.push("add_breadcrumb_schema");
+    }
+    if (route.pageType === "programmatic" && !hasFaq) {
+      recommendations.push("add_faq_schema");
+    }
+    if (route.pageType === "transactional" && !hasService) {
+      recommendations.push("add_service_schema");
+    }
+
+    const coverageScore = Math.max(0, 100 - recommendations.length * 25);
+    return {
+      route: route.route,
+      schemas,
+      coverageScore,
+      recommendations
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    entries: entries.sort((a, b) => b.coverageScore - a.coverageScore)
+  };
+};
+
+const buildSeoHealthReport = ({
+  routes,
+  internalLinkGraph,
+  indexationPolicy,
+  richResultsCoverage,
+  freshnessQueue
+}) => {
+  const totalRoutes = routes.length;
+  const averageLinks =
+    totalRoutes === 0 ? 0 : Number((internalLinkGraph.edges.length / totalRoutes).toFixed(2));
+  const noindexRoutes = indexationPolicy.directives.filter((entry) =>
+    String(entry.robots).includes("noindex")
+  ).length;
+  const avgRichScore =
+    richResultsCoverage.entries.length === 0
+      ? 0
+      : Number(
+          (
+            richResultsCoverage.entries.reduce((sum, entry) => sum + entry.coverageScore, 0) /
+            richResultsCoverage.entries.length
+          ).toFixed(2)
+        );
+  const highStalenessRoutes = freshnessQueue.items.filter((item) => item.stalenessScore >= 60).length;
+
+  const recommendations = [];
+  if (averageLinks < 2) {
+    recommendations.push("increase_internal_link_density");
+  }
+  if (avgRichScore < 80) {
+    recommendations.push("improve_rich_results_schema_coverage");
+  }
+  if (highStalenessRoutes > 0) {
+    recommendations.push("prioritize_freshness_updates_for_stale_routes");
+  }
+  if (noindexRoutes > 0) {
+    recommendations.push("review_noindex_routes_for_business_intent");
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    summary: {
+      totalRoutes,
+      averageLinksPerRoute: averageLinks,
+      noindexRoutes,
+      averageRichResultsCoverageScore: avgRichScore,
+      highStalenessRoutes
+    },
+    recommendations
+  };
+};
+
 const buildLlmsTxt = ({ canonicalHost, targetDomain, routes, aiRoutingManifest }) => {
   const lines = [
     "# APIBRASIL SEO Engine",
@@ -1302,6 +1453,24 @@ const main = async () => {
     topicalAuthorityScore,
     freshnessQueue
   });
+  const longTailExpansionPlan = buildLongTailExpansionPlan({
+    keywordClusters: keywords.clusters,
+    canonicalHost: config.canonicalHost,
+    targetDomain: config.targetDomain
+  });
+  const internalAnchorPlan = buildInternalAnchorPlan({
+    routes
+  });
+  const richResultsCoverage = buildRichResultsCoverage({
+    routes
+  });
+  const seoHealthReport = buildSeoHealthReport({
+    routes,
+    internalLinkGraph,
+    indexationPolicy,
+    richResultsCoverage,
+    freshnessQueue
+  });
   const llmsTxt = buildLlmsTxt({
     canonicalHost: config.canonicalHost,
     targetDomain: config.targetDomain,
@@ -1337,6 +1506,10 @@ const main = async () => {
     console.log(`CTR route variants: ${ctrVariants.variants.length}`);
     console.log(`Entity coverage audits: ${entityCoverageAudit.audits.length}`);
     console.log(`AI citation priorities: ${aiCitationPriority.priorities.length}`);
+    console.log(`Long-tail expansion items: ${longTailExpansionPlan.items.length}`);
+    console.log(`Internal anchor links: ${internalAnchorPlan.links.length}`);
+    console.log(`Rich results coverage entries: ${richResultsCoverage.entries.length}`);
+    console.log(`SEO health recommendations: ${seoHealthReport.recommendations.length}`);
     console.log(
       `Google verification configured: ${googleVerificationMetaTag ? "yes" : "no"}`
     );
@@ -1383,6 +1556,10 @@ const main = async () => {
   await writeFile("dist/ctr-variants.json", `${JSON.stringify(ctrVariants, null, 2)}\n`);
   await writeFile("dist/entity-coverage-audit.json", `${JSON.stringify(entityCoverageAudit, null, 2)}\n`);
   await writeFile("dist/ai-citation-priority.json", `${JSON.stringify(aiCitationPriority, null, 2)}\n`);
+  await writeFile("dist/longtail-expansion-plan.json", `${JSON.stringify(longTailExpansionPlan, null, 2)}\n`);
+  await writeFile("dist/internal-anchor-plan.json", `${JSON.stringify(internalAnchorPlan, null, 2)}\n`);
+  await writeFile("dist/rich-results-coverage.json", `${JSON.stringify(richResultsCoverage, null, 2)}\n`);
+  await writeFile("dist/seo-health-report.json", `${JSON.stringify(seoHealthReport, null, 2)}\n`);
   if (googleVerificationMetaTag) {
     await writeFile("dist/site-verification/google-meta-tag.html", googleVerificationMetaTag);
   }

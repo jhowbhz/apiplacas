@@ -26,8 +26,9 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
 - Verificacao de buscador: `dist/site-verification/google-meta-tag.html`
 - Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
-- Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`, `dist/ctr-variants.json`, `dist/entity-coverage-audit.json`
+- Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`, `dist/ctr-variants.json`, `dist/entity-coverage-audit.json`, `dist/rich-results-coverage.json`, `dist/seo-health-report.json`
 - Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
+- Expansao programatica: `dist/longtail-expansion-plan.json`, `dist/internal-anchor-plan.json`
 - AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/citation-bundle.json`, `dist/ai/conversion-directives.json`, `dist/ai/agent-instructions.json`, `dist/ai/feed-index.json`, `dist/ai/answers.jsonl`, `dist/ai/answers.ndjson`, `dist/ai-citation-priority.json`, `dist/llms.txt`
 
 ## GitHub-first execution

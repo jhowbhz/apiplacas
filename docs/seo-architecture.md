@@ -28,6 +28,10 @@
 - `dist/topical-authority-score.json`: score de autoridade por cluster semantico.
 - `dist/ctr-variants.json`: variantes de title/description orientadas a CTR.
 - `dist/entity-coverage-audit.json`: auditoria de cobertura semantica por entidade.
+- `dist/rich-results-coverage.json`: cobertura de schema para rich results.
+- `dist/seo-health-report.json`: diagnostico consolidado com acoes recomendadas.
+- `dist/longtail-expansion-plan.json`: plano de expansao programatica long-tail.
+- `dist/internal-anchor-plan.json`: plano de ancoragem interna para conversao.
 - `dist/sitemap.xml`: URLs indexaveis.
 - `dist/sitemap-index.xml`: agregador de sitemaps segmentados.
 - `dist/sitemaps/sitemap-programmatic.xml`: cobertura de rotas programaticas.
