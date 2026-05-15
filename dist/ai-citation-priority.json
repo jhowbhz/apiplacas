@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-05-15T15:19:45.507Z",
+  "targetDomain": "https://apibrasil.com.br",
+  "priorities": [
+    {
+      "route": "/consulta/sinistro",
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "citationPriority": 60,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 4,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "citationPriority": 57,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 7,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/placa",
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "citationPriority": 54,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 10,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/leilao",
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "citationPriority": 51,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 13,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "citationPriority": 50,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 14,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/renavam",
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "citationPriority": 49,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 15,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/gravame",
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "citationPriority": 49,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 52,
+        "freshnessPenalty": 15,
+        "intentBoost": 12
+      }
+    },
+    {
+      "route": "/consulta/fipe",
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "citationPriority": 48,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 50,
+        "freshnessPenalty": 8,
+        "intentBoost": 6
+      }
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "clusterId": null,
+      "intent": "comercial",
+      "citationPriority": 47,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 40,
+        "freshnessPenalty": 11,
+        "intentBoost": 18
+      }
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "clusterId": null,
+      "intent": "informacional",
+      "citationPriority": 47,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 40,
+        "freshnessPenalty": 11,
+        "intentBoost": 18
+      }
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "citationPriority": 45,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 46,
+        "freshnessPenalty": 7,
+        "intentBoost": 6
+      }
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "clusterId": null,
+      "intent": "comercial",
+      "citationPriority": 41,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 40,
+        "freshnessPenalty": 17,
+        "intentBoost": 18
+      }
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "clusterId": null,
+      "intent": "informacional",
+      "citationPriority": 41,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 40,
+        "freshnessPenalty": 17,
+        "intentBoost": 18
+      }
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "citationPriority": 39,
+      "targetDomain": "https://apibrasil.com.br",
+      "rationale": {
+        "authority": 46,
+        "freshnessPenalty": 13,
+        "intentBoost": 6
+      }
+    }
+  ]
+}

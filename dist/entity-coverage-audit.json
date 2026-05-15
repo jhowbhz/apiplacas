@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-05-15T15:19:45.507Z",
+  "audits": [
+    {
+      "clusterId": "consulta-placa",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/placa"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "consulta-renavam",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/renavam"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "consulta-fipe",
+      "intent": "comercial",
+      "routeCoverage": [
+        "/consulta/fipe"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "historico-veicular",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/historico-veicular"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "debitos-veiculares",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/debito-veicular"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "roubo-furto",
+      "intent": "seguranca",
+      "routeCoverage": [
+        "/consulta/veiculo-roubado"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "gravame",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/gravame"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "leilao",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/leilao"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "sinistro",
+      "intent": "transacional",
+      "routeCoverage": [
+        "/consulta/sinistro"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    },
+    {
+      "clusterId": "proprietario-por-placa",
+      "intent": "informacional-legal",
+      "routeCoverage": [
+        "/consulta/proprietario-por-placa"
+      ],
+      "semanticDepth": 6,
+      "linkedRoutes": 1,
+      "coverageScore": 68,
+      "gaps": [],
+      "status": "healthy"
+    }
+  ]
+}

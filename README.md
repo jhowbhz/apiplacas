@@ -7,7 +7,7 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 
 ## Strategic focus
 
-- SEO host canonico para indexacao: `https://www.apiplacas.com.br`.
+- Host canonico de indexacao definido via configuracao (`seo-repo.config.json`).
 - Destino de conversao obrigatorio: `https://apibrasil.com.br`.
 - Modelo machine-first: dados estruturados, manifests, grafos e politicas para crawlers e assistentes de IA.
 
@@ -25,9 +25,9 @@ Objetivo central: capturar demanda organica e direcionar conversoes para `https:
 - Core SEO: `dist/routes-manifest.json`, `dist/metadata-manifest.json`, `dist/schema-manifest.json`
 - Indexacao: `dist/sitemap.xml`, `dist/sitemap-index.xml`, `dist/sitemaps/*`, `dist/robots.txt`
 - Semantica: `dist/keyword-targeting.json`, `dist/canonical-keyword-map.json`, `dist/internal-link-graph.json`
-- Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`
+- Qualidade editorial tecnica: `dist/freshness-queue.json`, `dist/topical-authority-score.json`, `dist/ctr-variants.json`, `dist/entity-coverage-audit.json`
 - Competitivo: `dist/competitive-keyword-gap.json`, `dist/competitive-backlog.json`, `dist/aggressive-priority-top.json`, `dist/weekly-execution-manifest.json`, `dist/counter-positioning-pages.json`
-- AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/citation-bundle.json`, `dist/ai/conversion-directives.json`, `dist/ai/agent-instructions.json`, `dist/ai/feed-index.json`, `dist/ai/answers.jsonl`, `dist/ai/answers.ndjson`, `dist/llms.txt`
+- AI SEO: `dist/ai/intent-graph.json`, `dist/ai/routing-manifest.json`, `dist/ai/qa-dataset.json`, `dist/ai/entity-graph.json`, `dist/ai/snippet-pack.json`, `dist/ai/policy-manifest.json`, `dist/ai/prompt-contracts.json`, `dist/ai/citation-bundle.json`, `dist/ai/conversion-directives.json`, `dist/ai/agent-instructions.json`, `dist/ai/feed-index.json`, `dist/ai/answers.jsonl`, `dist/ai/answers.ndjson`, `dist/ai-citation-priority.json`, `dist/llms.txt`
 
 ## GitHub-first execution
 

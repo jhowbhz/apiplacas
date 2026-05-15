@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-05-15T15:19:45.506Z",
+  "variants": [
+    {
+      "route": "/consulta/placa",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta de placa: saiba historico, debitos e restricoes | APIBRASIL",
+          "description": "Faça consulta de placa online para verificar dados importantes do veiculo antes de comprar ou vender. Consultar agora na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta de placa: saiba historico, debitos e restricoes em segundos: guia objetivo",
+          "description": "Aprenda consulta placa com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta de placa: saiba historico, debitos e restricoes sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/renavam",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta RENAVAM: veja informacoes do veiculo online | APIBRASIL",
+          "description": "Consulte RENAVAM para apoiar compra, venda e regularizacao com dados confiaveis. Consultar RENAVAM na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta RENAVAM: veja informacoes do veiculo online em segundos: guia objetivo",
+          "description": "Aprenda consulta renavam com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta RENAVAM: veja informacoes do veiculo online sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/fipe",
+      "intent": "comercial",
+      "candidates": [
+        {
+          "title": "Consulta FIPE: descubra o valor de mercado do veiculo | APIBRASIL",
+          "description": "Consulte FIPE para comparar preco, negociar melhor e reduzir risco na compra do veiculo. Consultar FIPE com APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta FIPE: descubra o valor de mercado do veiculo em segundos: guia objetivo",
+          "description": "Aprenda consulta fipe com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta FIPE: descubra o valor de mercado do veiculo sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/historico-veicular",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta historico veicular completo por placa | APIBRASIL",
+          "description": "Analise historico do veiculo com dados de sinistro, leilao, gravame e alertas de risco. Ver historico na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta historico veicular completo por placa em segundos: guia objetivo",
+          "description": "Aprenda consulta historico veicular com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta historico veicular completo por placa sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/debito-veicular",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta debito veicular: IPVA, multas e taxas | APIBRASIL",
+          "description": "Consulte debitos veiculares para evitar surpresas em transferencia e regularizacao. Consultar debitos na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta debito veicular: IPVA, multas e taxas em segundos: guia objetivo",
+          "description": "Aprenda consulta debito veicular com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta debito veicular: IPVA, multas e taxas sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/veiculo-roubado",
+      "intent": "seguranca",
+      "candidates": [
+        {
+          "title": "Consulta de veiculo roubado por placa | APIBRASIL",
+          "description": "Verifique indicios de roubo e furto antes de fechar negocio de compra e venda. Checar restricao na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta de veiculo roubado por placa em segundos: guia objetivo",
+          "description": "Aprenda consulta veiculo roubado com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta de veiculo roubado por placa sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/gravame",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta gravame: veja restricoes financeiras do veiculo | APIBRASIL",
+          "description": "Identifique alienacao fiduciaria e gravames para reduzir risco juridico na negociacao. Consultar gravame na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta gravame: veja restricoes financeiras do veiculo em segundos: guia objetivo",
+          "description": "Aprenda consulta gravame com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta gravame: veja restricoes financeiras do veiculo sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/leilao",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta leilao: descubra passagem por leilao | APIBRASIL",
+          "description": "Saiba se o veiculo possui historico de leilao e entenda impactos na revenda. Consultar leilao na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta leilao: descubra passagem por leilao em segundos: guia objetivo",
+          "description": "Aprenda consulta leilao com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta leilao: descubra passagem por leilao sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/sinistro",
+      "intent": "transacional",
+      "candidates": [
+        {
+          "title": "Consulta sinistro: confira ocorrencias e perda total | APIBRASIL",
+          "description": "Consulte sinistro veicular para comprar com mais seguranca e previsibilidade. Consultar sinistro na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta sinistro: confira ocorrencias e perda total em segundos: guia objetivo",
+          "description": "Aprenda consulta sinistro com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta sinistro: confira ocorrencias e perda total sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/consulta/proprietario-por-placa",
+      "intent": "informacional-legal",
+      "candidates": [
+        {
+          "title": "Consulta de proprietario por placa: limites legais e usos permitidos | APIBRASIL",
+          "description": "Entenda em quais situacoes a consulta de proprietario por placa pode ocorrer com base legal. Conhecer consultas APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Consulta de proprietario por placa: limites legais e usos permitidos em segundos: guia objetivo",
+          "description": "Aprenda consulta proprietario por placa com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Consulta de proprietario por placa: limites legais e usos permitidos sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/api/consulta-veicular",
+      "intent": "comercial",
+      "candidates": [
+        {
+          "title": "API de consulta veicular para produtos e operacoes | APIBRASIL",
+          "description": "Integre consultas de placa, RENAVAM, historico, debitos e restricoes em um unico fluxo. Conhecer APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "API de consulta veicular para produtos e operacoes em segundos: guia objetivo",
+          "description": "Aprenda api consulta veicular com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "API de consulta veicular para produtos e operacoes sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/comparativos/consulta-veicular",
+      "intent": "comercial",
+      "candidates": [
+        {
+          "title": "Comparativo de solucoes para consulta veicular | APIBRASIL",
+          "description": "Compare cobertura de dados, latencia e aplicacoes para escolher a melhor API de consulta. Ver API de consulta em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Comparativo de solucoes para consulta veicular em segundos: guia objetivo",
+          "description": "Aprenda comparativo consulta veicular com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Comparativo de solucoes para consulta veicular sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/tutoriais/como-consultar-placa",
+      "intent": "informacional",
+      "candidates": [
+        {
+          "title": "Tutorial: como consultar placa e reduzir risco na compra | APIBRASIL",
+          "description": "Passo a passo pratico para validar informacoes de um veiculo antes da negociacao. Fazer consulta na APIBRASIL em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "Tutorial: como consultar placa e reduzir risco na compra em segundos: guia objetivo",
+          "description": "Aprenda tutorial consultar placa com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "Tutorial: como consultar placa e reduzir risco na compra sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    },
+    {
+      "route": "/faq/consulta-veicular",
+      "intent": "informacional",
+      "candidates": [
+        {
+          "title": "FAQ de consulta veicular: duvidas frequentes | APIBRASIL",
+          "description": "Respostas objetivas para as principais duvidas de consulta de placa, RENAVAM e historico. Consultar agora em https://apibrasil.com.br.",
+          "expectedCtrScore": 0.74
+        },
+        {
+          "title": "FAQ de consulta veicular: duvidas frequentes em segundos: guia objetivo",
+          "description": "Aprenda faq consulta veicular com passos diretos e execute agora na APIBRASIL.",
+          "expectedCtrScore": 0.69
+        },
+        {
+          "title": "FAQ de consulta veicular: duvidas frequentes sem erros: validacao completa",
+          "description": "Valide dados, riscos e historico com foco em decisao segura. Acesse https://apibrasil.com.br.",
+          "expectedCtrScore": 0.71
+        }
+      ],
+      "winnerPolicy": "choose_highest_expectedCtrScore"
+    }
+  ]
+}

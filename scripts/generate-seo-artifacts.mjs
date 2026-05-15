@@ -868,6 +868,126 @@ const buildTopicalAuthorityScore = ({ keywordClusters, routes, internalLinkGraph
   };
 };
 
+const buildCtrVariants = ({ routes, targetDomain }) => ({
+  generatedAt: new Date().toISOString(),
+  variants: routes.map((route) => {
+    const baseTitle = route.titlePattern ?? route.title ?? "Consulta veicular";
+    const baseDescription =
+      route.descriptionPattern ??
+      route.description ??
+      "Consulte dados veiculares com foco em seguranca e validacao.";
+    const keywordHint = route.slug?.replaceAll("-", " ") ?? "consulta veicular";
+    const ctaLabel = route.primaryCta ?? route.cta?.label ?? "Conhecer APIBRASIL";
+
+    return {
+      route: route.route,
+      intent: route.searchIntent ?? "unknown",
+      candidates: [
+        {
+          title: `${baseTitle} | APIBRASIL`,
+          description: `${baseDescription} ${ctaLabel} em ${targetDomain}.`,
+          expectedCtrScore: 0.74
+        },
+        {
+          title: `${baseTitle} em segundos: guia objetivo`,
+          description: `Aprenda ${keywordHint} com passos diretos e execute agora na APIBRASIL.`,
+          expectedCtrScore: 0.69
+        },
+        {
+          title: `${baseTitle} sem erros: validacao completa`,
+          description: `Valide dados, riscos e historico com foco em decisao segura. Acesse ${targetDomain}.`,
+          expectedCtrScore: 0.71
+        }
+      ],
+      winnerPolicy: "choose_highest_expectedCtrScore"
+    };
+  })
+});
+
+const buildEntityCoverageAudit = ({ keywordClusters, routes, internalLinkGraph }) => {
+  const linksByRoute = new Map();
+  for (const edge of internalLinkGraph.edges) {
+    const current = linksByRoute.get(edge.source) ?? 0;
+    linksByRoute.set(edge.source, current + 1);
+  }
+
+  const audits = keywordClusters.map((cluster) => {
+    const clusterRoutes = routes.filter((route) => route.clusterId === cluster.id);
+    const primaryTerms = cluster.primaryKeywords ?? [];
+    const longTailTerms = cluster.longTailKeywords ?? [];
+    const semanticDepth = primaryTerms.length + longTailTerms.length;
+    const linkedRoutes = clusterRoutes.filter((route) => (linksByRoute.get(route.route) ?? 0) > 0).length;
+    const coverageScore = Math.min(
+      100,
+      clusterRoutes.length * 30 + Math.min(30, semanticDepth * 3) + Math.min(40, linkedRoutes * 20)
+    );
+
+    const gaps = [];
+    if (clusterRoutes.length === 0) {
+      gaps.push("missing_route_coverage");
+    }
+    if (semanticDepth < 6) {
+      gaps.push("low_semantic_depth");
+    }
+    if (linkedRoutes < clusterRoutes.length) {
+      gaps.push("insufficient_internal_links");
+    }
+
+    return {
+      clusterId: cluster.id,
+      intent: cluster.intent ?? "unknown",
+      routeCoverage: clusterRoutes.map((route) => route.route),
+      semanticDepth,
+      linkedRoutes,
+      coverageScore,
+      gaps,
+      status: gaps.length === 0 ? "healthy" : "needs_improvement"
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    audits: [...audits].sort((a, b) => b.coverageScore - a.coverageScore)
+  };
+};
+
+const buildAiCitationPriority = ({
+  routes,
+  targetDomain,
+  topicalAuthorityScore,
+  freshnessQueue
+}) => {
+  const authorityMap = new Map(topicalAuthorityScore.entries.map((entry) => [entry.clusterId, entry.authorityScore]));
+  const freshnessMap = new Map(freshnessQueue.items.map((item) => [item.route, item.refreshPriority]));
+
+  const priorities = routes.map((route) => {
+    const authority = route.clusterId ? authorityMap.get(route.clusterId) ?? 40 : 40;
+    const freshnessPenalty = Math.round((freshnessMap.get(route.route) ?? 0) * 0.2);
+    const intentBoost =
+      route.pageType === "transactional" ? 18 : route.searchIntent === "transacional" ? 12 : 6;
+    const citationPriority = Math.max(0, Math.min(100, authority + intentBoost - freshnessPenalty));
+
+    return {
+      route: route.route,
+      clusterId: route.clusterId ?? null,
+      intent: route.searchIntent ?? "unknown",
+      citationPriority,
+      targetDomain,
+      rationale: {
+        authority,
+        freshnessPenalty,
+        intentBoost
+      }
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    targetDomain,
+    priorities: [...priorities].sort((a, b) => b.citationPriority - a.citationPriority)
+  };
+};
+
 const buildLlmsTxt = ({ canonicalHost, targetDomain, routes, aiRoutingManifest }) => {
   const lines = [
     "# APIBRASIL SEO Engine",
@@ -1159,6 +1279,21 @@ const main = async () => {
     routes,
     internalLinkGraph
   });
+  const ctrVariants = buildCtrVariants({
+    routes,
+    targetDomain: config.targetDomain
+  });
+  const entityCoverageAudit = buildEntityCoverageAudit({
+    keywordClusters: keywords.clusters,
+    routes,
+    internalLinkGraph
+  });
+  const aiCitationPriority = buildAiCitationPriority({
+    routes,
+    targetDomain: config.targetDomain,
+    topicalAuthorityScore,
+    freshnessQueue
+  });
   const llmsTxt = buildLlmsTxt({
     canonicalHost: config.canonicalHost,
     targetDomain: config.targetDomain,
@@ -1188,6 +1323,9 @@ const main = async () => {
     console.log(`AI conversion directives: ${aiConversionDirectives.directives.length}`);
     console.log(`Freshness queue items: ${freshnessQueue.items.length}`);
     console.log(`Topical authority clusters: ${topicalAuthorityScore.entries.length}`);
+    console.log(`CTR route variants: ${ctrVariants.variants.length}`);
+    console.log(`Entity coverage audits: ${entityCoverageAudit.audits.length}`);
+    console.log(`AI citation priorities: ${aiCitationPriority.priorities.length}`);
     console.log(`Counter-position pages: ${competitiveIntelligence.counterPositioningPages.pages.length}`);
     console.log("SEO artifacts check completed.");
     return;
@@ -1228,6 +1366,9 @@ const main = async () => {
   await writeFile("dist/llms.txt", llmsTxt);
   await writeFile("dist/freshness-queue.json", `${JSON.stringify(freshnessQueue, null, 2)}\n`);
   await writeFile("dist/topical-authority-score.json", `${JSON.stringify(topicalAuthorityScore, null, 2)}\n`);
+  await writeFile("dist/ctr-variants.json", `${JSON.stringify(ctrVariants, null, 2)}\n`);
+  await writeFile("dist/entity-coverage-audit.json", `${JSON.stringify(entityCoverageAudit, null, 2)}\n`);
+  await writeFile("dist/ai-citation-priority.json", `${JSON.stringify(aiCitationPriority, null, 2)}\n`);
 
   console.log(`Generated SEO artifacts in ${distDir}`);
 };

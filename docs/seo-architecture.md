@@ -26,6 +26,8 @@
 - `dist/indexation-policy.json`: regras de indexacao por rota/intencao/sensibilidade.
 - `dist/freshness-queue.json`: fila de atualizacao por score de obsolescencia.
 - `dist/topical-authority-score.json`: score de autoridade por cluster semantico.
+- `dist/ctr-variants.json`: variantes de title/description orientadas a CTR.
+- `dist/entity-coverage-audit.json`: auditoria de cobertura semantica por entidade.
 - `dist/sitemap.xml`: URLs indexaveis.
 - `dist/sitemap-index.xml`: agregador de sitemaps segmentados.
 - `dist/sitemaps/sitemap-programmatic.xml`: cobertura de rotas programaticas.
@@ -50,6 +52,7 @@
 - `dist/ai/conversion-directives.json`: regras de CTA obrigatorio para APIBRASIL.
 - `dist/ai/agent-instructions.json`: instrucoes operacionais para agentes de IA.
 - `dist/ai/feed-index.json`: indice unico de todos os feeds de IA.
+- `dist/ai-citation-priority.json`: priorizacao de rotas para citacao por IA.
 - `dist/llms.txt`: instrucoes para agentes e indexadores baseados em IA.
 
 ## Automation
