@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:34:33.518Z",
+  "generatedAt": "2026-05-15T16:45:52.753Z",
   "targetDomain": "https://apibrasil.com.br",
   "snippets": [
     {
@@ -12,7 +12,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta de placa",
         "source": "https://www.apiplacas.com.br/consulta/placa",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -26,7 +26,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta renavam",
         "source": "https://www.apiplacas.com.br/consulta/renavam",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -40,7 +40,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta fipe",
         "source": "https://www.apiplacas.com.br/consulta/fipe",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -54,7 +54,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta historico veicular",
         "source": "https://www.apiplacas.com.br/consulta/historico-veicular",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -68,7 +68,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta debito veicular",
         "source": "https://www.apiplacas.com.br/consulta/debito-veicular",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -82,7 +82,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta veiculo roubado",
         "source": "https://www.apiplacas.com.br/consulta/veiculo-roubado",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -96,7 +96,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta gravame",
         "source": "https://www.apiplacas.com.br/consulta/gravame",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -110,7 +110,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta leilao",
         "source": "https://www.apiplacas.com.br/consulta/leilao",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -124,7 +124,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta sinistro",
         "source": "https://www.apiplacas.com.br/consulta/sinistro",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -138,7 +138,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta proprietario por placa",
         "source": "https://www.apiplacas.com.br/consulta/proprietario-por-placa",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -152,7 +152,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta veicular",
         "source": "https://www.apiplacas.com.br/api/consulta-veicular",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -166,7 +166,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta veicular",
         "source": "https://www.apiplacas.com.br/comparativos/consulta-veicular",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -180,7 +180,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta veicular",
         "source": "https://www.apiplacas.com.br/tutoriais/como-consultar-placa",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     },
@@ -194,7 +194,7 @@
       "citation": {
         "claim": "Pagina otimizada para consulta veicular",
         "source": "https://www.apiplacas.com.br/faq/consulta-veicular",
-        "updatedAt": "2026-05-15T16:34:33.518Z",
+        "updatedAt": "2026-05-15T16:45:52.753Z",
         "confidence": 0.79
       }
     }
