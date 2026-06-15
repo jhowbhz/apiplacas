@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-08T08:36:33.765Z",
+  "generatedAt": "2026-06-15T09:10:47.968Z",
   "items": [
     {
       "route": "/api/consulta-veicular",
       "pageType": "transactional",
       "intent": "comercial",
-      "lastReviewedAt": "2026-04-09T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-16T09:10:47.968Z",
       "refreshIntervalDays": 14,
       "stalenessScore": 67,
       "refreshPriority": 87
@@ -14,7 +14,7 @@
       "route": "/faq/consulta-veicular",
       "pageType": "transactional",
       "intent": "informacional",
-      "lastReviewedAt": "2026-04-09T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-16T09:10:47.968Z",
       "refreshIntervalDays": 14,
       "stalenessScore": 67,
       "refreshPriority": 87
@@ -23,7 +23,7 @@
       "route": "/consulta/renavam",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-04-01T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-08T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 76,
       "refreshPriority": 76
@@ -32,7 +32,7 @@
       "route": "/consulta/gravame",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-04-01T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-08T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 76,
       "refreshPriority": 76
@@ -41,7 +41,7 @@
       "route": "/consulta/historico-veicular",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-04-06T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-13T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 70,
       "refreshPriority": 70
@@ -50,7 +50,7 @@
       "route": "/consulta/proprietario-por-placa",
       "pageType": "programmatic",
       "intent": "informacional-legal",
-      "lastReviewedAt": "2026-04-25T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-02T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 49,
       "refreshPriority": 64
@@ -59,7 +59,7 @@
       "route": "/consulta/leilao",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-04-12T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-19T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 63,
       "refreshPriority": 63
@@ -68,7 +68,7 @@
       "route": "/comparativos/consulta-veicular",
       "pageType": "transactional",
       "intent": "comercial",
-      "lastReviewedAt": "2026-05-06T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-13T09:10:47.968Z",
       "refreshIntervalDays": 14,
       "stalenessScore": 37,
       "refreshPriority": 57
@@ -77,7 +77,7 @@
       "route": "/tutoriais/como-consultar-placa",
       "pageType": "transactional",
       "intent": "informacional",
-      "lastReviewedAt": "2026-05-06T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-13T09:10:47.968Z",
       "refreshIntervalDays": 14,
       "stalenessScore": 37,
       "refreshPriority": 57
@@ -86,7 +86,7 @@
       "route": "/consulta/placa",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-04-23T08:36:33.765Z",
+      "lastReviewedAt": "2026-04-30T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 51,
       "refreshPriority": 51
@@ -95,7 +95,7 @@
       "route": "/consulta/fipe",
       "pageType": "programmatic",
       "intent": "comercial",
-      "lastReviewedAt": "2026-05-04T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-11T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 39,
       "refreshPriority": 39
@@ -104,7 +104,7 @@
       "route": "/consulta/debito-veicular",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-05-09T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-16T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 33,
       "refreshPriority": 33
@@ -113,7 +113,7 @@
       "route": "/consulta/veiculo-roubado",
       "pageType": "programmatic",
       "intent": "seguranca",
-      "lastReviewedAt": "2026-05-09T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-16T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 33,
       "refreshPriority": 33
@@ -122,7 +122,7 @@
       "route": "/consulta/sinistro",
       "pageType": "programmatic",
       "intent": "transacional",
-      "lastReviewedAt": "2026-05-23T08:36:33.765Z",
+      "lastReviewedAt": "2026-05-30T09:10:47.968Z",
       "refreshIntervalDays": 21,
       "stalenessScore": 18,
       "refreshPriority": 18
