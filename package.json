@@ -9,6 +9,21 @@
     "check:seo": "node scripts/generate-seo-artifacts.mjs --check",
     "build:seo:war": "node scripts/generate-seo-artifacts.mjs",
     "check:ai-quality": "node scripts/check-ai-quality.mjs",
-    "notify:indexnow": "node scripts/notify-indexnow.mjs"
-  }
+    "notify:indexnow": "node scripts/notify-indexnow.mjs",
+    "test": "node --test lib/*.test.mjs"
+  },
+  "exports": {
+    ".": "./lib/placa.mjs"
+  },
+  "keywords": [
+    "placa",
+    "placa-mercosul",
+    "validador-placa",
+    "consulta-placa",
+    "brasil",
+    "veiculos",
+    "fipe",
+    "renavam"
+  ],
+  "license": "MIT"
 }
